@@ -1,0 +1,98 @@
+
+rm(list=ls())
+
+
+packages <- list("tidyverse","here","caret","ggplot2","randomForest",
+                 "Boruta")
+
+
+
+
+### Loading all packages ### 
+lapply(packages, require,character.only=T)  
+
+##############
+
+
+train <- read_csv(here("Flowers_train.csv"))
+
+test <- read_csv(here("Flowers_test.csv"))
+
+###  Remove the first column (index) ####
+
+train <- train %>%
+         select(-...1)
+
+test <- test %>%
+        select(-...1)
+
+
+
+
+train <- train %>% mutate(
+  Species_Name = case_when(
+    Species == 0 ~ "Annus",
+    Species == 1 ~ "Fallax",
+    Species == 2 ~ "Petiolaris")) %>%
+  select(-Species)
+
+test <- test %>% mutate(
+  Species_Name = case_when(
+    Species == 0 ~ "Annus",
+    Species == 1 ~ "Fallax",
+    Species == 2 ~ "Petiolaris")) %>%
+  select(-Species)
+
+Numbers <- c(1:250)
+
+Numbers <- data.frame(Numbers = c(1:250))
+
+View(Numbers)
+
+PC <- data.frame(PC =rep(("PC"),times=250))
+
+View(PC)
+
+PC <- cbind(PC,Numbers)
+
+PC$PC <- paste(PC$PC,PC$Numbers,sep = "_")
+
+View(PC)
+
+PC <- PC$PC
+
+New_names <- c(PC,"Species_Name")
+
+New_names
+
+Old_names <- colnames(train)
+
+train <- train %>% rename_at(vars(Old_names), ~ New_names)
+
+
+test <- test %>% rename_at(vars(Old_names), ~ New_names)
+
+
+train$Species_Name <- factor(train$Species_Name)
+
+test$Species_Name <- factor(test$Species_Name)   
+
+####################
+
+subsets <- c(1:250)
+
+params_rfe <- rfeControl(functions = rfFuncs,method = "cv",number = 10,
+                         verbose = F)
+
+set.seed(1234)
+
+features_rfe <- rfe(Species_Name~.,data = train,
+                         sizes=subsets,rfeControl=params_rfe)
+
+
+## variation of accuracy with the removal of variables ### 
+features_rfe_gini
+
+
+
+
