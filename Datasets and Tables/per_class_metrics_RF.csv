@@ -1,0 +1,12 @@
+"","c_rf.byClass"
+"Sensitivity",0.930232558139535
+"Specificity",0.56
+"Pos Pred Value",0.784313725490196
+"Neg Pred Value",0.823529411764706
+"Precision",0.784313725490196
+"Recall",0.930232558139535
+"F1",0.851063829787234
+"Prevalence",0.632352941176471
+"Detection Rate",0.588235294117647
+"Detection Prevalence",0.75
+"Balanced Accuracy",0.745116279069767
