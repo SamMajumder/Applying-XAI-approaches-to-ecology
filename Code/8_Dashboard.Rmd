@@ -1,0 +1,522 @@
+---
+title: "Intraspecific Differences in wild Helianthus annuus"
+output: flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+
+library(flexdashboard) 
+library(tidyverse)
+library(ggplot2)
+library(sf) 
+library(plotly)
+library(here)
+library(tidyverse)
+library(ggspatial)
+library(caret)
+library(gbm)
+library(iml)
+library(ggdist)
+library(cowplot)
+
+
+rm(list = ls())
+
+#### read in the coordinate file ####
+
+Population_coordinates <- read_csv(here("Raw_Datasets_and_Tables",
+                                        "Population_coordinates.csv"))
+
+
+############## experiment ### this worked ##
+
+### Convert the Population coordinates into an sf object ###
+
+Population_coordinates_sf <- st_as_sf(Population_coordinates,
+                             coords = c("longitude","latitude"), crs = 4326) %>% 
+                             inner_join(Population_coordinates) ### this keeps the coordinates column
+  
+## read in the ecoregion shape file ###
+Ecoregion_shape <- st_read(here("Shape_files","na_cec_eco_l1",
+                                "NA_CEC_Eco_Level1.shp"))
+
+
+
+## set coordinate system of the point locations to the coordinate system of the ecoregions ##
+## both the coordinates and the ecoregion shape file need to be in the same coordinate system for spatial join
+
+
+Population_coordinates_sf <- st_transform(Population_coordinates_sf,
+                                          crs = st_crs(Ecoregion_shape))
+
+###perform a spatial join ### 
+## joining the the population coordinates with their corresponding ecoregions##
+
+Population_ecoregions <- Population_coordinates_sf %>% 
+                         st_join(Ecoregion_shape,
+                         join = st_intersects,
+                         left = TRUE)
+
+
+
+### converting the Population_ecoregions to a dataframe ###
+## renaming some columns ##
+### for example NAL1NAME becomes Ecoregions ##
+## also removing certain columns as they are not needed 
+
+Study_ecoregions <- Population_ecoregions %>% st_drop_geometry() %>% 
+                    select(-c(NA_L1CODE,NA_L1KEY,Shape_Leng,Shape_Area)) %>% 
+                    rename(Ecoregions = NA_L1NAME)
+
+
+## The dataframe contains all ecoregions with annuus population ##
+### we only need two as per our study 
+### Now filtering out the ecoregions that are not part of this dataset ##
+
+our_ecotypes <- c("NORTH AMERICAN DESERTS","GREAT PLAINS")
+
+Study_ecoregions <- Study_ecoregions %>% filter(Ecoregions %in% our_ecotypes)
+
+
+### Now lets filter the shapefile as well to only contain the ecoregions we need ##
+## this helps us to make a more focussed map ##
+
+
+Ecoregion_shape_our_ecotype <- Ecoregion_shape %>% 
+                               rename(Ecoregion = NA_L1NAME) %>% 
+                               filter(Ecoregion %in% our_ecotypes)
+
+
+### Convert the Study ecoregions into an sf object ###
+## because we need to visualize the points on the ecoregion shapefile
+
+Study_ecoregions_sf <- st_as_sf(Study_ecoregions,
+                                      coords = c("longitude","latitude"), 
+                                      crs = 4326) %>% 
+                                      inner_join(Study_ecoregions)
+
+
+#### Plotting it on a map ### ## use aes(color = Ecoregion for outline) 
+### or aes(fill = Ecoregion) to fill the polygon
+## plotting this as per coordinate system 4326 ###
+
+p <- ggplot() +
+  geom_sf(data = Ecoregion_shape_our_ecotype, 
+          mapping = aes(fill = Ecoregion)) + 
+  geom_sf(data = Study_ecoregions_sf) + 
+  coord_sf(datum = st_crs(Study_ecoregions_sf)) +
+  labs(x='Longitude',
+       y='Latitude') +
+  annotation_north_arrow(location = "bl", which_north = "true", 
+                         pad_x = unit(0.0, "in"), pad_y = unit(0.2, "in"),
+                         style = north_arrow_fancy_orienteering) +
+  ggtitle("Wild Helianthus annus populations within Great Plains and North American Deserts") +
+  annotation_scale(location = "bl", width_hint = 0.5) +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(panel.background = element_blank()) +
+  theme(text = element_text(size = 10))
+
+
+
+#######################
+#### Importance plot ### 
+######################
+
+
+## reading in the values first
+
+Importance_values <- read_csv(here("Processed_Datasets",
+                                   "Rfe_best_subset_imp.csv"))
+
+
+
+
+
+### change the name from Darker.axillae1 to Darker.axillae 
+## RFE keeps changing the name ###
+
+Importance_values$Features <- gsub("Darker.axillae1",
+                                   "Darker.axillae",
+                                   Importance_values$Features)
+
+
+Imp_plot <- ggplot(data = Importance_values,
+                aes(x=reorder(Features,Overall), y = Overall, fill = Features)) +
+            geom_bar(stat = "identity") + 
+            labs(x= "Features", y= "Variable Importance") +
+            coord_flip() + 
+            theme_bw() + 
+            theme(legend.position = "none")  +
+            theme(axis.title.y = element_blank()) +
+            theme(text = element_text(size = 10)) 
+  
+
+
+
+########################
+### BORUTA #####
+###############
+
+Boruta_results <- read_csv(here("Processed_Datasets",
+                                  "Boruta_results.csv"))
+
+
+
+Boruta_plot <- ggplot(data = Boruta_results,
+                aes(x=reorder(Feature,meanImp), y = meanImp, fill = Feature)) +
+            geom_bar(stat = "identity") + 
+            labs(x= "Traits", y= "Variable Importance") +
+            coord_flip() + 
+            theme_bw() + 
+            theme(legend.position = "none")  +
+            theme(axis.title.y = element_blank()) +
+            theme(text = element_text(size = 10)) 
+  
+
+#################################
+#### PREDICTIONS ####
+####################### 
+
+### reading in the file containing the predictions ###
+
+C_v_I_predicted_GBM <- read_csv(here("Processed_Datasets",
+                                     "C_v_I_predicted_GBM.csv"))
+
+
+#### Arranging the order of Prop correct so that we can get the facets right ##
+
+C_v_I_predicted_GBM$Prop_correct <- factor(C_v_I_predicted_GBM$Prop_correct,
+                                          levels = c("All","1 / 2",
+                                                     "1 / 4","2 / 3",
+                                                     "3 / 4","4 / 5",
+                                                     "None")) 
+
+### Convert the C_v_I_predicted file into an sf object ###
+
+C_v_I_predicted_GBM_sf <- st_as_sf(C_v_I_predicted_GBM,
+                                      coords = c("longitude","latitude"), 
+                                      crs = 4326) %>% 
+                                ### this keeps the coordinates in the dataframe
+                                      inner_join(C_v_I_predicted_GBM)
+
+
+
+###########
+### plotting the points according to the coordinate system of the ecoregions ###
+### Visualizing on the map ## get rid of the background ###
+### add labels ## the title needs to be bold ##
+
+Maps <- ggplot() +
+  geom_sf(data = Ecoregion_shape_our_ecotype,
+          mapping = aes(color=Ecoregion)) +
+  geom_sf(data = C_v_I_predicted_GBM_sf) +
+  coord_sf(datum = st_crs(C_v_I_predicted_GBM_sf)) +
+  facet_wrap(~Prop_correct) +
+  labs(x='Longitude',
+       y='Latitude') +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(panel.background = element_blank()) +
+  theme(text = element_text(size = 10)) +
+  theme(legend.position = "right") +
+  theme(legend.key.size = unit(0.5, 'cm'), #change legend key size
+        legend.key.height = unit(0.5, 'cm'), #change legend key height
+        legend.key.width = unit(0.5, 'cm'), #change legend key width
+        legend.title = element_text(size=5), #change legend title font size
+        legend.text = element_text(size=5)) #change legend text font size
+
+
+
+#######################################
+#### ACCUMULATED LOCAL EFFECTS PLOT ###
+###########################
+
+
+### loading in the train dataset which contains only the most divergent traits #
+
+train <- read.csv(here("Processed_Datasets",
+                       "train_boruta.csv"))
+
+
+### classes in our dataset 
+class <- c("NORTH AMERICAN DESERTS","GREAT PLAINS")   
+
+
+#### GBM ####
+### Making four ALE plots ### 
+## two for north american desert ##
+
+### loading in the model ##
+
+gbm <- readRDS(here("Code","GBM.rds"))
+
+class <- c("NORTH AMERICAN DESERTS","GREAT PLAINS")
+
+
+Ale <- Predictor$new(gbm, data = train, type = "prob", class= class)
+
+############################
+## Total RGB ##
+
+Total_RGB <- plot(FeatureEffect$new(Ale, 
+                                    feature = "Total.RGB", 
+                                    method = "ale"))   
+
+### extracting the information which contains the ALE values ###
+
+ALE_RGB_GBM <- Total_RGB[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_RGB_GBM <- ALE_RGB_GBM %>% 
+                mutate(Trait = "Total RGB") %>% 
+                rename(Trait_Value = Total.RGB)
+
+###########################################
+### Primary branches ##
+############
+
+Primary_branches <- plot(FeatureEffect$new(Ale, 
+                                           feature = "Primary.branches", 
+                                           method = "ale")) 
+
+### extracting the information which contains the ALE values ###
+
+ALE_Primary_branches_GBM <- Primary_branches[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_Primary_branches_GBM <- ALE_Primary_branches_GBM %>% 
+                            mutate(Trait = "Primary Branches") %>% 
+                            rename(Trait_Value = Primary.branches)
+
+################################################# 
+
+
+######################## 
+## RGB Proportion Red ####
+##########################
+
+RGB_proportion_red <- plot(FeatureEffect$new(Ale, 
+                                             feature = "RGB.proportion.red", 
+                                             method = "ale"))
+
+### extracting the information which contains the ALE values ###
+
+ALE_RGB_prop_Red_GBM <- RGB_proportion_red[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_RGB_prop_Red_GBM <- ALE_RGB_prop_Red_GBM %>% 
+                        mutate(Trait = "RGB Proportion Red") %>% 
+                        rename(Trait_Value = RGB.proportion.red)
+
+
+#############
+## Total Leaf Number #
+#################
+
+
+TLN <- plot(FeatureEffect$new(Ale, 
+                              feature = "Total_Leaf_Number", 
+                              method = "ale"))
+
+### extracting the information which contains the ALE values ###
+
+ALE_TLN_GBM <- TLN[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_TLN_GBM <- ALE_TLN_GBM %>% 
+                mutate(Trait = "Leaf Number") %>% 
+                rename(Trait_Value = Total_Leaf_Number)
+
+
+#############
+## Phyllaries length ##
+############
+
+
+Phyllaries_length <- plot(FeatureEffect$new(Ale, 
+                                            feature = "Phyllaries.length", 
+                                            method = "ale"))
+
+
+### extracting the information which contains the ALE values ###
+
+ALE_Phyllaries_GBM <- Phyllaries_length[["data"]]
+
+
+## adding a column spelling out the trait ##
+
+ALE_Phyllaries_GBM <- ALE_Phyllaries_GBM %>% 
+                      mutate(Trait = "Phyllaries Length(cm)") %>% 
+                      rename(Trait_Value = Phyllaries.length)
+
+
+#######################
+### Leaf Total Nitrogen ##
+################
+
+Leaf_total_nitrogen <- plot(FeatureEffect$new(Ale, 
+                                              feature = "Leaf.total.N", 
+                                              method = "ale"))  
+
+
+### extracting the information which contains the ALE values ###
+
+ALE_Leaf_total_nitrogen_GBM <- Leaf_total_nitrogen[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_Leaf_total_nitrogen_GBM <- ALE_Leaf_total_nitrogen_GBM %>% 
+                               mutate(Trait = "Leaf Nitrogen") %>% 
+                               rename(Trait_Value = Leaf.total.N)
+
+
+#############
+## Specific Leaf Area ### 
+################
+
+Specific_leaf_area <- plot(FeatureEffect$new(Ale, 
+                                             feature = "Specific_Leaf_Area", 
+                                             method = "ale"))
+
+### extracting the information which contains the ALE values ###
+
+ALE_SLA_GBM <- Specific_leaf_area[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_SLA_GBM <- ALE_SLA_GBM %>% 
+               mutate(Trait = "SLA(mm2/mg)") %>% 
+               rename(Trait_Value = Specific_Leaf_Area)
+
+
+
+################
+## Leaf C:N ratio ###
+##############
+
+
+#### extracting the information which contains the ALE values #### 
+
+Leaf_C_N_ratio <- plot(FeatureEffect$new(Ale, 
+                                         feature = "Leaf.C.N.ratio", 
+                                         method = "ale"))
+
+
+### extracting the information which contains the ALE values ###
+
+ALE_Leaf_C_N_ratio_GBM <- Leaf_C_N_ratio[["data"]]
+
+## adding a column spelling out the trait ##
+
+ALE_Leaf_C_N_ratio_GBM <- ALE_Leaf_C_N_ratio_GBM %>% 
+                          mutate(Trait = "Leaf C:N Ratio") %>% 
+                          rename(Trait_Value = Leaf.C.N.ratio)
+
+
+################ 
+
+ALE_GBM <- do.call("rbind",
+                   list(ALE_Leaf_C_N_ratio_GBM,
+                        ALE_Phyllaries_GBM,
+                        ALE_Primary_branches_GBM,
+                        ALE_RGB_GBM,
+                        ALE_SLA_GBM,
+                        ALE_TLN_GBM,
+                        ALE_Leaf_total_nitrogen_GBM,
+                        ALE_RGB_prop_Red_GBM))
+
+
+
+### renaming the columns of this dataframe ###
+
+ALE_GBM <- ALE_GBM %>% rename(Ecoregions = .class,
+                              ALE = .value)
+
+
+
+### setting levels as per the order of importance (according to Boruta) 
+## plots will be faceted from left to right in order of their importances 
+
+ALE_GBM$Trait <- factor(ALE_GBM$Trait, 
+                       levels = c("Total RGB","Primary Branches",
+                                  "SLA(mm2/mg)","Leaf Number",
+                                  "RGB Proportion Red","Leaf Nitrogen",
+                                  "Leaf C:N Ratio","Phyllaries Length(cm)"))
+
+
+
+#### creating a ggplot to show the ALE values 
+
+ALE_GBM <- ggplot(ALE_GBM, 
+       aes(x = Trait_Value, y = ALE)) + 
+       geom_line(aes(color = Ecoregions)) +
+       facet_grid(Ecoregions ~ Trait,
+             scales = "free_x") +
+       scale_color_manual(values=c('#619CFF',
+                              '#F8766D')) + 
+       labs(x = "Trait Value", y = "ALE") +
+       theme(text = element_text(size = 10)) +
+       theme(legend.position="bottom")
+
+
+
+
+
+```
+
+ 
+# Distribution map 
+
+```{r}
+
+ggplotly(p)
+
+```
+
+
+# Optimal subset of traits {data-navmenu="Results"}
+
+```{r}
+
+ggplotly(Imp_plot)
+
+
+```
+
+
+# Most divergent traits {data-navmenu="Results"}
+
+```{r}
+
+ggplotly(Boruta_plot)
+
+
+```
+
+
+# Prediction distribution {data-navmenu="Results"}
+
+```{r}
+
+Maps
+
+```
+
+
+# Impact of traits on divergence {data-navmenu="Results"}
+
+
+```{r}
+
+
+ggplotly(ALE_GBM)
+
+
+```
+
+
+
+

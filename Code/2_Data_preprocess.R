@@ -2,46 +2,22 @@
 
 rm(list=ls())
 
+
 ### these are the packages we need ##
 packages <- list("jsonlite","tidyverse","here","randomForest",
-                 "caret")
+                 "caret","readxl","ggspatial","sf")
 
 
 ## lets load all the packages ###
 lapply(packages, require,character.only=T)
 
-source("Preprocess_functions.R")
-
-### read in the names of flowers and leaves in our study ###
-
-#### Adding the flower file names ##
-### WHEN RECREATING THIS ANALYSIS, PLEASE FEEL FREE TO RESET THE RELATIVE PATHS FOR THE IMAGES ###
-
-## but first we have to set a few argument values for our custom function
-path = 'D:/Images/HeliantOME/flowertop_Sam_Curated_11_18_2022' 
-pattern = "*.JPG"
-full.names =TRUE
-
-## Applying the function and creating a dataframe with the flower file names
-Names_flowers <- Repeated_files_aggregate(path,pattern,full.names)
-
-### Doing the same thing with leaf file images
-path = 'D:/Images/HeliantOME/leaftop_Sam_curated'
-pattern = "*.png"
-
-Names_leaves <- Single_files_aggregate(path,pattern,full.names)
-
-
-### Now Only keeping the ones that are common in both flowers and leaf folders ##
-
-Names <- inner_join(Names_flowers,Names_leaves)
+source(here("Code","1_Functions.R"))
 
 ###### Now reading in the file containing the Genotype and corresponding population info 
 ## and only retaining the files that is in our study ###
 
-Population_Genotype <- read.csv(here("Datasets and Tables","Population_Genotype.csv"))
-
-Population_Genotype <- inner_join(Names,Population_Genotype)
+Population_Genotype <- read.csv(here("Raw_Datasets_and_Tables",
+                                     "Population_Genotype.csv"))
 
 ### Only keeping Helianthus Annuus 
 ## because our study focuses only on this species ##
@@ -50,11 +26,17 @@ Population_Genotype <- Population_Genotype %>%
                        filter(species == "Helianthus annuus")
 
 
+## writing this file out ###
+
+write.csv(Population_Genotype,
+          "~/Applying-XAI-approaches-to-ecology/Processed_Datasets/Population_coordinates.csv",
+          row.names = FALSE)
+
 #####
 ##### Adding the trait data to the file ##
 ###### 
 
-Trait_data <- read.csv(here("Datasets and Tables","Trait_data.csv"))
+Trait_data <- read.csv(here("Raw_Datasets_and_Tables","Trait_data.csv"))
 
 Data <- inner_join(Population_Genotype,Trait_data)
 
@@ -82,36 +64,113 @@ Population_coordinates <- Location %>%
                           select(population_id,species,longitude,sitename,
                                  latitude)
 
-### writing out this file as a csv ##
-## we will then open this csv on a map using ArcGIS and figure out what ecotypes each populations belong to ###
-#######
 
-write.csv(Population_coordinates,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Population_coordinates.csv",row.names = FALSE)
+#### writing the coordinate file out as a csv ###
 
-###############
-#### Now reading in the file that contains the Population, coordinates and ecotype info ###
-#######
+write.csv(Population_coordinates,
+      "~/Applying-XAI-approaches-to-ecology/Processed_Datasets/Population_coordinates.csv",
+      row.names=FALSE)
 
-Ecotypes <- read.csv(here("Datasets and Tables","Population_Ecotype.csv"))
+############## experiment ### this worked ##
+
+### Convert the Population coordinates into an sf object ###
+
+Population_coordinates_sf <- st_as_sf(Population_coordinates,
+                             coords = c("longitude","latitude"), crs = 4326) %>% 
+                             inner_join(Population_coordinates)
+  
+## read in the ecoregion shape file ###
+Ecoregion_shape <- st_read(here("Shape_files","na_cec_eco_l1",
+                                "NA_CEC_Eco_Level1.shp"))
+
+
+
+## set coordinate system of the point locations to the coordinate system of the ecoregions ##
+
+Population_coordinates_sf <- st_transform(Population_coordinates_sf,
+                                          crs = st_crs(Ecoregion_shape))
+
+###perform a spatial join ### 
+
+
+### trying to perform a spatial join ### 
+
+Population_ecoregions <- Population_coordinates_sf %>% 
+                         st_join(Ecoregion_shape,
+                         join = st_intersects,
+                         left = TRUE)
+
+
+
+### converting the Population_ecoregions to a dataframe ###
+
+Study_ecoregions <- Population_ecoregions %>% st_drop_geometry() %>% 
+                    select(-c(NA_L1CODE,NA_L1KEY,Shape_Leng,Shape_Area)) %>% 
+                    rename(Ecoregions = NA_L1NAME)
+
+
+
+### Now filtering out the ecoregions that are not part of this dataset ##
+
+our_ecotypes <- c("NORTH AMERICAN DESERTS","GREAT PLAINS")
+
+Study_ecoregions <- Study_ecoregions %>% filter(Ecoregions %in% our_ecotypes)
 
 ### Joining this to our dataset containing the functional traits, population and genotype info ##
 ### 
 
-Data <- inner_join(Ecotypes,Data)
-
-#### filtering out the Data based on the ecotypes in our study ###
-
-our_ecotypes <- c("north american desert","the great plains")
-
-Data <- Data %>% filter(ecotype %in% our_ecotypes)
+Data <- inner_join(Study_ecoregions,Data)
 
 ###############
 #### Now only keeping the columns which we require ####
 #############
 
-Data <- Data %>% select(-c(species,genotype_id,
-                           num_phenotypes,longitude,sitename,latitude))
+Data <- Data %>%select(-c(species,num_phenotypes))
 
+
+###################################
+####### Trying to visualize the points on the map ### 
+#################
+
+### First lets filter the shapefile to only contain the ecoregions we need ##
+
+
+Ecoregion_shape_our_ecotype <- Ecoregion_shape %>% 
+                               rename(Ecoregion = NA_L1NAME) %>% 
+                               filter(Ecoregion %in% our_ecotypes)
+
+
+### Convert the Study ecoregions into an sf object ###
+
+Study_ecoregions_sf <- st_as_sf(Study_ecoregions,
+                                      coords = c("longitude","latitude"), 
+                                      crs = 4326) %>% 
+                                      inner_join(Study_ecoregions)
+
+
+#### Plotting it on a map ### ## use aes(color = Ecoregion for outline) 
+### or aes(fill = Ecoregion) to fill the polygon
+
+ggplot() +
+  geom_sf(data = Ecoregion_shape_our_ecotype, 
+          mapping = aes(fill = Ecoregion)) + 
+  geom_sf(data = Study_ecoregions_sf) + 
+  coord_sf(datum = st_crs(Study_ecoregions_sf)) +
+  ggtitle("Wild Helianthus annus populations within the Great Plains and North American Deserts") +
+  labs(x='Longitude',
+       y='Latitude') +
+  annotation_north_arrow(location = "bl", which_north = "true", 
+                         pad_x = unit(0.0, "in"), pad_y = unit(0.2, "in"),
+                         style = north_arrow_fancy_orienteering) +
+  annotation_scale(location = "bl", width_hint = 0.5) +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(panel.background = element_blank()) +
+  theme(text = element_text(size = 10))
+
+
+
+ggsave("~/Applying-XAI-approaches-to-ecology/Figure 1.svg",
+       dpi=1000)
 
 #######################
 #### Exploring the missing data ###
@@ -119,7 +178,11 @@ Data <- Data %>% select(-c(species,genotype_id,
 
 #### Viewing the missing  values in the dataframe ##
 
-Missing_data_results <- Missing(Data,"ecotype")
+
+columns_to_remove <- c("Ecoregions","individual_id","genotype_id",
+                       "population_id","latitude","longitude","sitename")
+
+Missing_data_results <- Missing(Data,columns_to_remove)
 
 ## Extracting the plot ###
 
@@ -127,14 +190,16 @@ Missing_data_results[["Percent missing plot"]]
 
 ## saving it ###
 
-ggsave("Figure S1.svg",dpi = 300)
+ggsave("Figure S1.svg",dpi = 1000)
 
 
 ### Extracting the table which contains percent missing values for each variable
 
 Missing_percent <- Missing_data_results[["Missing_percent"]]
 
-write.csv(Missing_percent,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Missing_percent_table.csv",row.names = F)
+write.csv(Missing_percent,
+          "C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/Missing_percent_table.csv",
+          row.names = F)
 
 #### removing the variable which doesn't have any data ##
 
@@ -142,116 +207,77 @@ Data <- Data %>% select(-Peduncle.length.of.first.flower)
 
 ### Writing out this dataframe ###
 
-write.csv(Data,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Total_Data.csv",row.names = F)
+write.csv(Data,"C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/Total_Data.csv",
+          row.names = F)
 
 #### Now getting the names of the training and test data for both classes 
 ### 
 
 ### Converting the Darker axillae and ecotype to factor ###
 
-Data$ecotype <- factor(Data$ecotype)
+Data$Ecoregions <- factor(Data$Ecoregions)
 Data$Darker.axillae <- factor(Data$Darker.axillae)
 
 
 ##### Divide the data into training and test ##
 
-s <- createDataPartition(y=Data$ecotype,p=0.70,list=F)
+s <- createDataPartition(y=Data$Ecoregions,p=0.70,list=F)
 train <- Data[s,]
 test <- Data[-s,]
-
-#### now extracting the individual ids for both training and test along with what ecotype region they belong to##
-
-train_ids <- train %>% select(individual_id,ecotype)
-
-test_ids <- test %>% select(individual_id,ecotype)
-
-train_desert_ids <- train_ids %>% filter(ecotype == "north american desert")
-
-test_desert_ids <- test_ids %>% filter(ecotype == "north american desert")
-
-train_great_plains_ids <- train_ids %>% filter(ecotype == "the great plains")
-
-test_great_plains_ids <- test_ids %>% filter(ecotype == "the great plains")
-
-#### Now writing out the training and test names 
-
-write.csv(train_desert_ids,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/train_desert_names.csv",row.names = F)
-
-write.csv(test_desert_ids,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/test_desert_names.csv",row.names = F)
-
-
-write.csv(train_great_plains_ids,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/train_great_plains_names.csv",row.names = F)
-
-write.csv(test_great_plains_ids,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/test_great_plains_names.csv",row.names = F)
 
 
 ###################
 ###### There is some missing data ## lets impute it ###
 ############
 
-### first removing population_id and individual id from training and test dataframe ##
+### extracting the individual id, population and genotype id column
+### along with latitude, longitude and sitename ###
+
+train_ids <- train %>% select(individual_id,Ecoregions,population_id,
+                              genotype_id,latitude,longitude,sitename) 
+
+test_ids <- test %>% select(individual_id,Ecoregions,population_id,
+                            genotype_id,latitude,longitude,sitename)
+
+
+### Remove the individual id from training and test dataframe ##
 ###
 
-train <- train %>% select(-c(population_id,individual_id))
+train <- train %>% select(-c(individual_id,population_id,
+                             genotype_id,latitude,longitude,sitename))
 
-test <- test %>% select(-c(population_id,individual_id))
+test <- test %>% select(-c(individual_id,population_id,
+                           genotype_id,latitude,longitude,sitename))
 
 
 ####### Imputing the values ###
 
 set.seed(1234)
-train_imputed <- rfImpute(ecotype~.,train)
-test_imputed <- rfImpute(ecotype~.,test)
+train_imputed <- rfImpute(Ecoregions~.,train)
+test_imputed <- rfImpute(Ecoregions~.,test)
 
 #### Now exporting the train and the test imputed data as csv files ###
 ##########
 
-write.csv(train_imputed,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/train_imputed.csv",row.names = F)
+write.csv(train_imputed,
+          "C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/train_imputed.csv",
+          row.names = F)
 
-write.csv(test_imputed,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/test_imputed.csv",row.names = F)
-
-
-############### AS COOL EXTRA STEP ### 
-############### I WILL ALSO BE EXTRACTING THE SOIL AND THE CLIMATE DATA FROM THE JSON file ###
-############## 
-
-### In this work we are removing population ANN 71 and PET 21 because they don't have soil data associated with them ## 
-### SAM is cultivated and doesn't have soil or climate data associayted with it
-
-names_to_remove <- c("ANN_71","PET_21","SAM")
+write.csv(test_imputed,
+          "C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/test_imputed.csv",
+          row.names = F)
 
 
-#### applying the functions on the dataframe and removing the soil and climate variable list columns ##
+######### Now exporting the train ids and the test ids ###
+
+write.csv(train_ids,
+          "C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/train_ids.csv",
+          row.names = FALSE)  
 
 
-Location_climate_soil <- Data_preprocess(Location,names_to_remove=names_to_remove) %>%
-                         select(-c(climate_variables,soil_variables))
-
-
-
-#### removing the variable Peduncle length of first flower ##
-## because it has all its values missing values ### 
-
-### Extracting the metadata about climate and soil ##
-
-Climate <- Location[[10]][[1]]
-
-Climate <- Climate %>% select(name,description)
-
-Soil <- Location[[11]][[1]] 
-
-Soil <- Soil %>% select(name,description)
-
-### Writing out the metadata and the dataset ###
-
-write.csv(Location_climate_soil,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Combined_Data.csv",row.names = FALSE)
-
-write.csv(Climate,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Climate_variables.csv", row.names = FALSE)
-
-write.csv(Soil,"C:/Users/samba/Documents/Chapter_3_Traditional_ML_modeling/Datasets and Tables/Soil_variables.csv", row.names = FALSE)
-
-
-
+write.csv(test_ids,
+          "C:/Users/samba/Documents/Applying-XAI-approaches-to-ecology/Processed_Datasets/test_ids.csv",
+          row.names = FALSE)
 
 
 
