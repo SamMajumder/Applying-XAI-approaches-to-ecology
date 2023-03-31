@@ -1,0 +1,1511 @@
+individual_id,species,population_id,genotype_id,num_phenotypes
+ANN0801,Helianthus annuus,ANN_01,ANN0801,86
+ANN0802,Helianthus annuus,ANN_01,ANN0802,86
+ANN0803,Helianthus annuus,ANN_01,ANN0803,65
+ANN0804,Helianthus annuus,ANN_01,ANN0804,85
+ANN0805,Helianthus annuus,ANN_01,ANN0805,86
+ANN0806,Helianthus annuus,ANN_01,ANN0806,86
+ANN0807,Helianthus annuus,ANN_01,ANN0807,53
+ANN0808,Helianthus annuus,ANN_01,ANN0808,86
+ANN0809,Helianthus annuus,ANN_01,ANN0809,86
+ANN0810,Helianthus annuus,ANN_01,ANN0810,86
+ANN0811,Helianthus annuus,ANN_02,ANN0811,86
+ANN0812,Helianthus annuus,ANN_02,ANN0812,86
+ANN0813,Helianthus annuus,ANN_02,ANN0813,65
+ANN0814,Helianthus annuus,ANN_02,ANN0814,86
+ANN0815,Helianthus annuus,ANN_02,ANN0815,86
+ANN0816,Helianthus annuus,ANN_02,ANN0816,86
+ANN0817,Helianthus annuus,ANN_02,ANN0817,86
+ANN0818,Helianthus annuus,ANN_02,ANN0818,86
+ANN0819,Helianthus annuus,ANN_02,ANN0819,48
+ANN0820,Helianthus annuus,ANN_02,ANN0820,65
+ANN0821,Helianthus annuus,ANN_03,ANN0821,86
+ANN0822,Helianthus annuus,ANN_03,ANN0822,74
+ANN0823,Helianthus annuus,ANN_03,ANN0823,85
+ANN0824,Helianthus annuus,ANN_03,ANN0824,86
+ANN0825,Helianthus annuus,ANN_03,ANN0825,86
+ANN0826,Helianthus annuus,ANN_03,ANN0826,86
+ANN0827,Helianthus annuus,ANN_03,ANN0827,86
+ANN0828,Helianthus annuus,ANN_03,ANN0828,86
+ANN0829,Helianthus annuus,ANN_03,ANN0829,65
+ANN0830,Helianthus annuus,ANN_03,ANN0830,48
+ANN0831,Helianthus annuus,ANN_04,ANN0831-,86
+ANN0832,Helianthus annuus,ANN_04,ANN0832,86
+ANN0833,Helianthus annuus,ANN_04,ANN0833,85
+ANN0834,Helianthus annuus,ANN_04,ANN0834,51
+ANN0835,Helianthus annuus,ANN_04,ANN0835,86
+ANN0836,Helianthus annuus,ANN_04,ANN0836,86
+ANN0837,Helianthus annuus,ANN_04,ANN0837,85
+ANN0838,Helianthus annuus,ANN_04,ANN0838,65
+ANN0839,Helianthus annuus,ANN_04,ANN0839,86
+ANN0840,Helianthus annuus,ANN_04,ANN0840,85
+ANN0841,Helianthus annuus,ANN_05,ANN0841,86
+ANN0842,Helianthus annuus,ANN_05,ANN0842,86
+ANN0843,Helianthus annuus,ANN_05,ANN0843,86
+ANN0844,Helianthus annuus,ANN_05,ANN0844,86
+ANN0845,Helianthus annuus,ANN_05,ANN0845,86
+ANN0846,Helianthus annuus,ANN_05,ANN0846,86
+ANN0847,Helianthus annuus,ANN_05,ANN0847,86
+ANN0848,Helianthus annuus,ANN_05,ANN0848,86
+ANN0849,Helianthus annuus,ANN_05,ANN0849,65
+ANN0850,Helianthus annuus,ANN_05,ANN0850,65
+ANN0851,Helianthus annuus,ANN_06,ANN0851,86
+ANN0852,Helianthus annuus,ANN_06,ANN0852,86
+ANN0853,Helianthus annuus,ANN_06,ANN0853,86
+ANN0854,Helianthus annuus,ANN_06,ANN0854,86
+ANN0855,Helianthus annuus,ANN_06,ANN0855,86
+ANN0856,Helianthus annuus,ANN_06,ANN0856,86
+ANN0857,Helianthus annuus,ANN_06,ANN0857,86
+ANN0858,Helianthus annuus,ANN_06,ANN0858,86
+ANN0859,Helianthus annuus,ANN_06,ANN0859,86
+ANN0860,Helianthus annuus,ANN_06,ANN0860,85
+ANN0861,Helianthus annuus,ANN_07,ANN0861,51
+ANN0862,Helianthus annuus,ANN_07,ANN0862,86
+ANN0863,Helianthus annuus,ANN_07,ANN0863,85
+ANN0864,Helianthus annuus,ANN_07,ANN0864,84
+ANN0865,Helianthus annuus,ANN_07,ANN0865,86
+ANN0866,Helianthus annuus,ANN_07,ANN0866,86
+ANN0867,Helianthus annuus,ANN_07,ANN0867,86
+ANN0868,Helianthus annuus,ANN_07,ANN0868,85
+ANN0869,Helianthus annuus,ANN_07,ANN0869,85
+ANN0870,Helianthus annuus,ANN_07,ANN0870,82
+ANN0871,Helianthus annuus,ANN_08,ANN0871,85
+ANN0872,Helianthus annuus,ANN_08,ANN0872,65
+ANN0873,Helianthus annuus,ANN_08,ANN0873,86
+ANN0874,Helianthus annuus,ANN_08,ANN0874,86
+ANN0875,Helianthus annuus,ANN_08,ANN0875,64
+ANN0876,Helianthus annuus,ANN_08,ANN0876,86
+ANN0877,Helianthus annuus,ANN_08,ANN0877,86
+ANN0878,Helianthus annuus,ANN_08,ANN0878,86
+ANN0879,Helianthus annuus,ANN_08,ANN0879,86
+ANN0880,Helianthus annuus,ANN_08,ANN0880,86
+ANN0881,Helianthus annuus,ANN_09,ANN0881,85
+ANN0882,Helianthus annuus,ANN_09,ANN0882,86
+ANN0883,Helianthus annuus,ANN_09,ANN0883,86
+ANN0884,Helianthus annuus,ANN_09,ANN0884,86
+ANN0885,Helianthus annuus,ANN_09,ANN0885,86
+ANN0886,Helianthus annuus,ANN_09,ANN0886,86
+ANN0887,Helianthus annuus,ANN_09,ANN0887,82
+ANN0888,Helianthus annuus,ANN_09,ANN0888,86
+ANN0889,Helianthus annuus,ANN_09,ANN0889,86
+ANN0890,Helianthus annuus,ANN_09,ANN0890,65
+ANN0891,Helianthus annuus,ANN_10,ANN0891,85
+ANN0892,Helianthus annuus,ANN_10,ANN0892,86
+ANN0893,Helianthus annuus,ANN_10,ANN0893,86
+ANN0894,Helianthus annuus,ANN_10,ANN0894,86
+ANN0895,Helianthus annuus,ANN_10,ANN0895,65
+ANN0896,Helianthus annuus,ANN_10,ANN0896,65
+ANN0897,Helianthus annuus,ANN_10,ANN0897,84
+ANN0898,Helianthus annuus,ANN_10,ANN0898,86
+ANN0899,Helianthus annuus,ANN_10,ANN0899,65
+ANN0900,Helianthus annuus,ANN_10,ANN0900,60
+ANN0901,Helianthus annuus,ANN_11,ANN0901,86
+ANN0902,Helianthus annuus,ANN_11,ANN0902,86
+ANN0903,Helianthus annuus,ANN_11,ANN0903,86
+ANN0904,Helianthus annuus,ANN_11,ANN0904,65
+ANN0905,Helianthus annuus,ANN_11,ANN0905,65
+ANN0906,Helianthus annuus,ANN_11,ANN0906,65
+ANN0907,Helianthus annuus,ANN_11,ANN0907,54
+ANN0908,Helianthus annuus,ANN_11,ANN0908,86
+ANN0909,Helianthus annuus,ANN_11,ANN0909,61
+ANN0910,Helianthus annuus,ANN_11,ANN0910,65
+ANN0911,Helianthus annuus,ANN_12,ANN0911,86
+ANN0912,Helianthus annuus,ANN_12,ANN0912,86
+ANN0913,Helianthus annuus,ANN_12,ANN0913,85
+ANN0914,Helianthus annuus,ANN_12,ANN0914,86
+ANN0915,Helianthus annuus,ANN_12,ANN0915,65
+ANN0916,Helianthus annuus,ANN_12,ANN0916,65
+ANN0917,Helianthus annuus,ANN_12,ANN0917,61
+ANN0918,Helianthus annuus,ANN_12,ANN0918,65
+ANN0919,Helianthus annuus,ANN_12,ANN0919,85
+ANN0920,Helianthus annuus,ANN_12,ANN0920,83
+ANN0921,Helianthus annuus,ANN_13,ANN0921,86
+ANN0922,Helianthus annuus,ANN_13,ANN0922,86
+ANN0923,Helianthus annuus,ANN_13,ANN0923,86
+ANN0924,Helianthus annuus,ANN_13,ANN0924,86
+ANN0925,Helianthus annuus,ANN_13,ANN0925,65
+ANN0926,Helianthus annuus,ANN_13,ANN0926,49
+ANN0927,Helianthus annuus,ANN_13,ANN0927,86
+ANN0928,Helianthus annuus,ANN_13,ANN0928,65
+ANN0929,Helianthus annuus,ANN_13,ANN0929,85
+ANN0930,Helianthus annuus,ANN_13,ANN0930,65
+ANN0931,Helianthus annuus,ANN_14,ANN0931,85
+ANN0932,Helianthus annuus,ANN_14,ANN0932,85
+ANN0933,Helianthus annuus,ANN_14,ANN0933,86
+ANN0934,Helianthus annuus,ANN_14,ANN0934,86
+ANN0935,Helianthus annuus,ANN_14,ANN0935,65
+ANN0936,Helianthus annuus,ANN_14,ANN0936,65
+ANN0937,Helianthus annuus,ANN_14,ANN0937,65
+ANN0938,Helianthus annuus,ANN_14,ANN0938,51
+ANN0939,Helianthus annuus,ANN_14,ANN0939,84
+ANN0940,Helianthus annuus,ANN_14,ANN0940,86
+ANN0941,Helianthus annuus,ANN_15,ANN0941,65
+ANN0942,Helianthus annuus,ANN_15,ANN0942,4
+ANN0943,Helianthus annuus,ANN_15,ANN0943,86
+ANN0944,Helianthus annuus,ANN_15,ANN0944,86
+ANN0945,Helianthus annuus,ANN_15,ANN0945,65
+ANN0946,Helianthus annuus,ANN_15,ANN0946,65
+ANN0947,Helianthus annuus,ANN_15,ANN0947,86
+ANN0948,Helianthus annuus,ANN_15,ANN0948,86
+ANN0949,Helianthus annuus,ANN_15,ANN0949,86
+ANN0950,Helianthus annuus,ANN_15,ANN0950,85
+ANN0951,Helianthus annuus,ANN_16,ANN0951,86
+ANN0952,Helianthus annuus,ANN_16,ANN0952,86
+ANN0953,Helianthus annuus,ANN_16,ANN0953,85
+ANN0954,Helianthus annuus,ANN_16,ANN0954,86
+ANN0955,Helianthus annuus,ANN_16,ANN0955,84
+ANN0956,Helianthus annuus,ANN_16,ANN0956,86
+ANN0957,Helianthus annuus,ANN_16,ANN0957,86
+ANN0958,Helianthus annuus,ANN_16,ANN0958,86
+ANN0959,Helianthus annuus,ANN_16,ANN0959,86
+ANN0960,Helianthus annuus,ANN_16,ANN0960,86
+ANN0961,Helianthus annuus,ANN_17,ANN0961,86
+ANN0962,Helianthus annuus,ANN_17,ANN0962,86
+ANN0963,Helianthus annuus,ANN_17,ANN0963,65
+ANN0964,Helianthus annuus,ANN_17,ANN0964,65
+ANN0965,Helianthus annuus,ANN_17,ANN0965,65
+ANN0966,Helianthus annuus,ANN_17,ANN0966,61
+ANN0967,Helianthus annuus,ANN_17,ANN0967,86
+ANN0968,Helianthus annuus,ANN_17,ANN0968,86
+ANN0969,Helianthus annuus,ANN_17,ANN0969,85
+ANN0970,Helianthus annuus,ANN_17,ANN0970,86
+ANN0971,Helianthus annuus,ANN_18,ANN0971,65
+ANN0972,Helianthus annuus,ANN_18,ANN0972,86
+ANN0973,Helianthus annuus,ANN_18,ANN0973,65
+ANN0974,Helianthus annuus,ANN_18,ANN0974,6
+ANN0975,Helianthus annuus,ANN_18,ANN0975,86
+ANN0976,Helianthus annuus,ANN_18,ANN0976,86
+ANN0977,Helianthus annuus,ANN_18,ANN0977,86
+ANN0978,Helianthus annuus,ANN_18,ANN0978,86
+ANN0979,Helianthus annuus,ANN_18,ANN0979,65
+ANN0980,Helianthus annuus,ANN_18,ANN0980,86
+ANN0981,Helianthus annuus,ANN_19,ANN0981,86
+ANN0982,Helianthus annuus,ANN_19,ANN0982,86
+ANN0983,Helianthus annuus,ANN_19,ANN0983,85
+ANN0984,Helianthus annuus,ANN_19,ANN0984,84
+ANN0985,Helianthus annuus,ANN_19,ANN0985,54
+ANN0986,Helianthus annuus,ANN_19,ANN0986,86
+ANN0987,Helianthus annuus,ANN_19,ANN0987,86
+ANN0988,Helianthus annuus,ANN_19,ANN0988,86
+ANN0989,Helianthus annuus,ANN_19,ANN0989,65
+ANN0990,Helianthus annuus,ANN_19,ANN0990,64
+ANN0991,Helianthus annuus,ANN_20,ANN0991,86
+ANN0992,Helianthus annuus,ANN_20,ANN0992,86
+ANN0993,Helianthus annuus,ANN_20,ANN0993,65
+ANN0994,Helianthus annuus,ANN_20,ANN0994,57
+ANN0995,Helianthus annuus,ANN_20,ANN0995,65
+ANN0996,Helianthus annuus,ANN_20,ANN0996,86
+ANN0997,Helianthus annuus,ANN_20,ANN0997,86
+ANN0998,Helianthus annuus,ANN_20,ANN0998,86
+ANN0999,Helianthus annuus,ANN_20,ANN0999,86
+ANN1000,Helianthus annuus,ANN_20,ANN1000,86
+ANN1001,Helianthus annuus,ANN_21,ANN1001,86
+ANN1002,Helianthus annuus,ANN_21,ANN1002,86
+ANN1003,Helianthus annuus,ANN_21,ANN1003,85
+ANN1004,Helianthus annuus,ANN_21,ANN1004,61
+ANN1005,Helianthus annuus,ANN_21,ANN1005,65
+ANN1006,Helianthus annuus,ANN_21,ANN1006,62
+ANN1007,Helianthus annuus,ANN_21,ANN1007,86
+ANN1008,Helianthus annuus,ANN_21,ANN1008,86
+ANN1009,Helianthus annuus,ANN_21,ANN1009,86
+ANN1010,Helianthus annuus,ANN_21,ANN1010,65
+ANN1011,Helianthus annuus,ANN_22,ANN1011,86
+ANN1012,Helianthus annuus,ANN_22,ANN1012,86
+ANN1013,Helianthus annuus,ANN_22,ANN1013,86
+ANN1014,Helianthus annuus,ANN_22,ANN1014,86
+ANN1015,Helianthus annuus,ANN_22,ANN1015,86
+ANN1016,Helianthus annuus,ANN_22,ANN1016,86
+ANN1017,Helianthus annuus,ANN_22,ANN1017,86
+ANN1018,Helianthus annuus,ANN_22,ANN1018,86
+ANN1019,Helianthus annuus,ANN_22,ANN1019,86
+ANN1020,Helianthus annuus,ANN_22,ANN1020,86
+ANN1021,Helianthus annuus,ANN_23,ANN1021,86
+ANN1022,Helianthus annuus,ANN_23,ANN1022,86
+ANN1023,Helianthus annuus,ANN_23,ANN1023,86
+ANN1024,Helianthus annuus,ANN_23,ANN1024,86
+ANN1025,Helianthus annuus,ANN_23,ANN1025,86
+ANN1026,Helianthus annuus,ANN_23,ANN1026,86
+ANN1027,Helianthus annuus,ANN_23,ANN1027,62
+ANN1028,Helianthus annuus,ANN_23,ANN1028,65
+ANN1029,Helianthus annuus,ANN_23,ANN1029,86
+ANN1030,Helianthus annuus,ANN_23,ANN1030,78
+ANN1031,Helianthus annuus,ANN_24,ANN1031,85
+ANN1032,Helianthus annuus,ANN_24,ANN1032,85
+ANN1033,Helianthus annuus,ANN_24,ANN1033,86
+ANN1034,Helianthus annuus,ANN_24,ANN1034,86
+ANN1035,Helianthus annuus,ANN_24,ANN1035,76
+ANN1036,Helianthus annuus,ANN_24,ANN1036,85
+ANN1037,Helianthus annuus,ANN_24,ANN1037,84
+ANN1038,Helianthus annuus,ANN_24,ANN1038,86
+ANN1039,Helianthus annuus,ANN_24,ANN1039,85
+ANN1040,Helianthus annuus,ANN_24,ANN1040,85
+ANN1041,Helianthus annuus,ANN_25,ANN1041,65
+ANN1042,Helianthus annuus,ANN_25,ANN1042,65
+ANN1043,Helianthus annuus,ANN_25,ANN1043,65
+ANN1044,Helianthus annuus,ANN_25,ANN1044,65
+ANN1045,Helianthus annuus,ANN_25,ANN1045,86
+ANN1046,Helianthus annuus,ANN_25,ANN1046,86
+ANN1047,Helianthus annuus,ANN_25,ANN1047,65
+ANN1048,Helianthus annuus,ANN_25,ANN1048,65
+ANN1049,Helianthus annuus,ANN_25,ANN1049,65
+ANN1050,Helianthus annuus,ANN_25,ANN1050,4
+ANN1051,Helianthus annuus,ANN_26,ANN1051,86
+ANN1052,Helianthus annuus,ANN_26,ANN1052,56
+ANN1053,Helianthus annuus,ANN_26,ANN1053,52
+ANN1054,Helianthus annuus,ANN_26,ANN1054,65
+ANN1055,Helianthus annuus,ANN_26,ANN1055,65
+ANN1056,Helianthus annuus,ANN_26,ANN1056,64
+ANN1057,Helianthus annuus,ANN_26,ANN1057,65
+ANN1058,Helianthus annuus,ANN_26,ANN1058,65
+ANN1059,Helianthus annuus,ANN_26,ANN1059,59
+ANN1060,Helianthus annuus,ANN_26,ANN1060,65
+ANN1061,Helianthus annuus,ANN_27,ANN1061,86
+ANN1062,Helianthus annuus,ANN_27,ANN1062,86
+ANN1063,Helianthus annuus,ANN_27,ANN1063,64
+ANN1064,Helianthus annuus,ANN_27,ANN1064,64
+ANN1065,Helianthus annuus,ANN_27,ANN1065,55
+ANN1066,Helianthus annuus,ANN_27,ANN1066,52
+ANN1067,Helianthus annuus,ANN_27,ANN1067,63
+ANN1068,Helianthus annuus,ANN_27,ANN1068,86
+ANN1069,Helianthus annuus,ANN_27,ANN1069,86
+ANN1070,Helianthus annuus,ANN_27,ANN1070,80
+ANN1071,Helianthus annuus,ANN_28,ANN1071,85
+ANN1072,Helianthus annuus,ANN_28,ANN1072,73
+ANN1073,Helianthus annuus,ANN_28,ANN1073,84
+ANN1074,Helianthus annuus,ANN_28,ANN1074,65
+ANN1075,Helianthus annuus,ANN_28,ANN1075,86
+ANN1076,Helianthus annuus,ANN_28,ANN1076,86
+ANN1077,Helianthus annuus,ANN_28,ANN1077,86
+ANN1078,Helianthus annuus,ANN_28,ANN1078,86
+ANN1079,Helianthus annuus,ANN_28,ANN1079,86
+ANN1080,Helianthus annuus,ANN_28,ANN1080,86
+ANN1081,Helianthus annuus,ANN_29,ANN1081,65
+ANN1082,Helianthus annuus,ANN_29,ANN1082,65
+ANN1083,Helianthus annuus,ANN_29,ANN1083,65
+ANN1084,Helianthus annuus,ANN_29,ANN1084,86
+ANN1085,Helianthus annuus,ANN_29,ANN1085,86
+ANN1086,Helianthus annuus,ANN_29,ANN1086,86
+ANN1087,Helianthus annuus,ANN_29,ANN1087,65
+ANN1088,Helianthus annuus,ANN_29,ANN1088,65
+ANN1089,Helianthus annuus,ANN_29,ANN1089,83
+ANN1090,Helianthus annuus,ANN_29,ANN1090,86
+ANN1091,Helianthus annuus,ANN_30,ANN1091,86
+ANN1092,Helianthus annuus,ANN_30,ANN1092,74
+ANN1093,Helianthus annuus,ANN_30,ANN1093,86
+ANN1094,Helianthus annuus,ANN_30,ANN1094,86
+ANN1095,Helianthus annuus,ANN_30,ANN1095,86
+ANN1096,Helianthus annuus,ANN_30,ANN1096,86
+ANN1097,Helianthus annuus,ANN_30,ANN1097,86
+ANN1098,Helianthus annuus,ANN_30,ANN1098,86
+ANN1099,Helianthus annuus,ANN_30,ANN1099,65
+ANN1100,Helianthus annuus,ANN_30,ANN1100,65
+ANN1101,Helianthus annuus,ANN_31,ANN1101,85
+ANN1102,Helianthus annuus,ANN_31,ANN1102,4
+ANN1103,Helianthus annuus,ANN_31,ANN1103,86
+ANN1104,Helianthus annuus,ANN_31,ANN1104,86
+ANN1105,Helianthus annuus,ANN_31,ANN1105,86
+ANN1106,Helianthus annuus,ANN_31,ANN1106,86
+ANN1107,Helianthus annuus,ANN_31,ANN1107,86
+ANN1108,Helianthus annuus,ANN_31,ANN1108,65
+ANN1109,Helianthus annuus,ANN_31,ANN1109,86
+ANN1110,Helianthus annuus,ANN_31,ANN1110,86
+ANN1111,Helianthus annuus,ANN_32,ANN1111,65
+ANN1112,Helianthus annuus,ANN_32,ANN1112,65
+ANN1113,Helianthus annuus,ANN_32,ANN1113,65
+ANN1114,Helianthus annuus,ANN_32,ANN1114,65
+ANN1115,Helianthus annuus,ANN_32,ANN1115,86
+ANN1116,Helianthus annuus,ANN_32,ANN1116,86
+ANN1117,Helianthus annuus,ANN_32,ANN1117,86
+ANN1118,Helianthus annuus,ANN_32,ANN1118,86
+ANN1119,Helianthus annuus,ANN_32,ANN1119,86
+ANN1120,Helianthus annuus,ANN_32,ANN1120,86
+ANN1121,Helianthus annuus,ANN_33,ANN1121,65
+ANN1122,Helianthus annuus,ANN_33,ANN1122,65
+ANN1123,Helianthus annuus,ANN_33,ANN1123,86
+ANN1124,Helianthus annuus,ANN_33,ANN1124,85
+ANN1125,Helianthus annuus,ANN_33,ANN1125,65
+ANN1126,Helianthus annuus,ANN_33,ANN1126,65
+ANN1127,Helianthus annuus,ANN_33,ANN1127,65
+ANN1128,Helianthus annuus,ANN_33,ANN1128,65
+ANN1129,Helianthus annuus,ANN_33,ANN1129,86
+ANN1130,Helianthus annuus,ANN_33,ANN1130,85
+ANN1131,Helianthus annuus,ANN_34,ANN1131,65
+ANN1132,Helianthus annuus,ANN_34,ANN1132,6
+ANN1133,Helianthus annuus,ANN_34,ANN1133,86
+ANN1134,Helianthus annuus,ANN_34,ANN1134,65
+ANN1135,Helianthus annuus,ANN_34,ANN1135,86
+ANN1136,Helianthus annuus,ANN_34,ANN1136,86
+ANN1137,Helianthus annuus,ANN_34,ANN1137,86
+ANN1138,Helianthus annuus,ANN_34,ANN1138,86
+ANN1139,Helianthus annuus,ANN_34,ANN1139,65
+ANN1140,Helianthus annuus,ANN_34,ANN1140,52
+ANN1141,Helianthus annuus,ANN_35,ANN1141,63
+ANN1142,Helianthus annuus,ANN_35,ANN1142,65
+ANN1143,Helianthus annuus,ANN_35,ANN1143,86
+ANN1144,Helianthus annuus,ANN_35,ANN1144,86
+ANN1145,Helianthus annuus,ANN_35,ANN1145,86
+ANN1146,Helianthus annuus,ANN_35,ANN1146,86
+ANN1147,Helianthus annuus,ANN_35,ANN1147,86
+ANN1148,Helianthus annuus,ANN_35,ANN1148,86
+ANN1149,Helianthus annuus,ANN_35,ANN1149,86
+ANN1150,Helianthus annuus,ANN_35,ANN1150,86
+ANN1151,Helianthus annuus,ANN_36,ANN1151,86
+ANN1152,Helianthus annuus,ANN_36,ANN1152,86
+ANN1153,Helianthus annuus,ANN_36,ANN1153,86
+ANN1154,Helianthus annuus,ANN_36,ANN1154,85
+ANN1155,Helianthus annuus,ANN_36,ANN1155,86
+ANN1156,Helianthus annuus,ANN_36,ANN1156,76
+ANN1157,Helianthus annuus,ANN_36,ANN1157,86
+ANN1158,Helianthus annuus,ANN_36,ANN1158,51
+ANN1159,Helianthus annuus,ANN_36,ANN1159,86
+ANN1160,Helianthus annuus,ANN_36,ANN1160,84
+ANN1161,Helianthus annuus,ANN_37,ANN1161,65
+ANN1162,Helianthus annuus,ANN_37,ANN1162,65
+ANN1163,Helianthus annuus,ANN_37,ANN1163,86
+ANN1164,Helianthus annuus,ANN_37,ANN1164,86
+ANN1165,Helianthus annuus,ANN_37,ANN1165,86
+ANN1166,Helianthus annuus,ANN_37,ANN1166,86
+ANN1167,Helianthus annuus,ANN_37,ANN1167,86
+ANN1168,Helianthus annuus,ANN_37,ANN1168,86
+ANN1169,Helianthus annuus,ANN_37,ANN1169,86
+ANN1170,Helianthus annuus,ANN_37,ANN1170,86
+ANN1171,Helianthus annuus,ANN_38,ANN1171,86
+ANN1172,Helianthus annuus,ANN_38,ANN1172,86
+ANN1173,Helianthus annuus,ANN_38,ANN1173,65
+ANN1174,Helianthus annuus,ANN_38,ANN1174,65
+ANN1175,Helianthus annuus,ANN_38,ANN1175,86
+ANN1176,Helianthus annuus,ANN_38,ANN1176,86
+ANN1177,Helianthus annuus,ANN_38,ANN1177,65
+ANN1178,Helianthus annuus,ANN_38,ANN1178,86
+ANN1179,Helianthus annuus,ANN_38,ANN1179,86
+ANN1180,Helianthus annuus,ANN_38,ANN1180,77
+ANN1181,Helianthus annuus,ANN_39,ANN1181,58
+ANN1182,Helianthus annuus,ANN_39,ANN1182,65
+ANN1183,Helianthus annuus,ANN_39,ANN1183,65
+ANN1184,Helianthus annuus,ANN_39,ANN1184,65
+ANN1185,Helianthus annuus,ANN_39,ANN1185,65
+ANN1186,Helianthus annuus,ANN_39,ANN1186,65
+ANN1187,Helianthus annuus,ANN_39,ANN1187,62
+ANN1188,Helianthus annuus,ANN_39,ANN1188,65
+ANN1189,Helianthus annuus,ANN_39,ANN1189,65
+ANN1190,Helianthus annuus,ANN_39,ANN1190,65
+ANN1191,Helianthus annuus,ANN_40,ANN1191,86
+ANN1192,Helianthus annuus,ANN_40,ANN1192,86
+ANN1193,Helianthus annuus,ANN_40,ANN1193,65
+ANN1194,Helianthus annuus,ANN_40,ANN1194,86
+ANN1195,Helianthus annuus,ANN_40,ANN1195,65
+ANN1196,Helianthus annuus,ANN_40,ANN1196,85
+ANN1197,Helianthus annuus,ANN_40,ANN1197,60
+ANN1198,Helianthus annuus,ANN_40,ANN1198,86
+ANN1199,Helianthus annuus,ANN_40,ANN1199,65
+ANN1200,Helianthus annuus,ANN_40,ANN1200,65
+ANN1201,Helianthus annuus,ANN_41,ANN1201,65
+ANN1202,Helianthus annuus,ANN_41,ANN1202,65
+ANN1203,Helianthus annuus,ANN_41,ANN1203,65
+ANN1204,Helianthus annuus,ANN_41,ANN1204,49
+ANN1205,Helianthus annuus,ANN_41,ANN1205,65
+ANN1206,Helianthus annuus,ANN_41,ANN1206,65
+ANN1207,Helianthus annuus,ANN_41,ANN1207,52
+ANN1208,Helianthus annuus,ANN_41,ANN1208,63
+ANN1209,Helianthus annuus,ANN_41,ANN1209,59
+ANN1210,Helianthus annuus,ANN_41,ANN1210,65
+ANN1211,Helianthus annuus,ANN_42,ANN1211,86
+ANN1212,Helianthus annuus,ANN_42,ANN1212,86
+ANN1213,Helianthus annuus,ANN_42,ANN1213,86
+ANN1214,Helianthus annuus,ANN_42,ANN1214,86
+ANN1215,Helianthus annuus,ANN_42,ANN1215,86
+ANN1216,Helianthus annuus,ANN_42,ANN1216,65
+ANN1217,Helianthus annuus,ANN_42,ANN1217,86
+ANN1218,Helianthus annuus,ANN_42,ANN1218,86
+ANN1219,Helianthus annuus,ANN_42,ANN1219,86
+ANN1220,Helianthus annuus,ANN_42,ANN1220,86
+ANN1221,Helianthus annuus,ANN_43,ANN1221,86
+ANN1222,Helianthus annuus,ANN_43,ANN1222,86
+ANN1223,Helianthus annuus,ANN_43,ANN1223,86
+ANN1224,Helianthus annuus,ANN_43,ANN1224,86
+ANN1225,Helianthus annuus,ANN_43,ANN1225,65
+ANN1226,Helianthus annuus,ANN_43,ANN1226,85
+ANN1227,Helianthus annuus,ANN_43,ANN1227,86
+ANN1228,Helianthus annuus,ANN_43,ANN1228,86
+ANN1229,Helianthus annuus,ANN_43,ANN1229,86
+ANN1230,Helianthus annuus,ANN_43,ANN1230,86
+ANN1231,Helianthus annuus,ANN_44,ANN1231,65
+ANN1232,Helianthus annuus,ANN_44,ANN1232,86
+ANN1233,Helianthus annuus,ANN_44,ANN1233,86
+ANN1234,Helianthus annuus,ANN_44,ANN1234,65
+ANN1235,Helianthus annuus,ANN_44,ANN1235,86
+ANN1236,Helianthus annuus,ANN_44,ANN1236,86
+ANN1237,Helianthus annuus,ANN_44,ANN1237,86
+ANN1238,Helianthus annuus,ANN_44,ANN1238,86
+ANN1239,Helianthus annuus,ANN_44,ANN1239,86
+ANN1240,Helianthus annuus,ANN_44,ANN1240,86
+ANN1241,Helianthus annuus,ANN_45,ANN1241,86
+ANN1242,Helianthus annuus,ANN_45,ANN1242,86
+ANN1243,Helianthus annuus,ANN_45,ANN1243,85
+ANN1244,Helianthus annuus,ANN_45,ANN1244,86
+ANN1245,Helianthus annuus,ANN_45,ANN1245,65
+ANN1246,Helianthus annuus,ANN_45,ANN1246,65
+ANN1247,Helianthus annuus,ANN_45,ANN1247,86
+ANN1248,Helianthus annuus,ANN_45,ANN1248,86
+ANN1249,Helianthus annuus,ANN_45,ANN1249,86
+ANN1250,Helianthus annuus,ANN_45,ANN1250,86
+ANN1251,Helianthus annuus,ANN_46,ANN1251,86
+ANN1252,Helianthus annuus,ANN_46,ANN1252,86
+ANN1253,Helianthus annuus,ANN_46,ANN1253,86
+ANN1254,Helianthus annuus,ANN_46,ANN1254,85
+ANN1255,Helianthus annuus,ANN_46,ANN1255,86
+ANN1256,Helianthus annuus,ANN_46,ANN1256,86
+ANN1257,Helianthus annuus,ANN_46,ANN1257,86
+ANN1258,Helianthus annuus,ANN_46,ANN1258,86
+ANN1259,Helianthus annuus,ANN_46,ANN1259,86
+ANN1260,Helianthus annuus,ANN_46,ANN1260,86
+ANN1261,Helianthus annuus,ANN_47,ANN1261,65
+ANN1262,Helianthus annuus,ANN_47,ANN1262,64
+ANN1263,Helianthus annuus,ANN_47,ANN1263,86
+ANN1264,Helianthus annuus,ANN_47,ANN1264,86
+ANN1265,Helianthus annuus,ANN_47,ANN1265,86
+ANN1266,Helianthus annuus,ANN_47,ANN1266,85
+ANN1267,Helianthus annuus,ANN_47,ANN1267,86
+ANN1268,Helianthus annuus,ANN_47,ANN1268,86
+ANN1269,Helianthus annuus,ANN_47,ANN1269,86
+ANN1270,Helianthus annuus,ANN_47,ANN1270,86
+ANN1271,Helianthus annuus,ANN_48,ANN1271,48
+ANN1272,Helianthus annuus,ANN_48,ANN1272,48
+ANN1273,Helianthus annuus,ANN_48,ANN1273,48
+ANN1274,Helianthus annuus,ANN_48,ANN1274,50
+ANN1275,Helianthus annuus,ANN_48,ANN1275,48
+ANN1276,Helianthus annuus,ANN_48,ANN1276,48
+ANN1277,Helianthus annuus,ANN_48,ANN1277,48
+ANN1278,Helianthus annuus,ANN_48,ANN1278,48
+ANN1279,Helianthus annuus,ANN_48,ANN1279,48
+ANN1280,Helianthus annuus,ANN_48,ANN1280,48
+ANN1281,Helianthus annuus,ANN_49,ANN1281,48
+ANN1282,Helianthus annuus,ANN_49,ANN1282,10
+ANN1283,Helianthus annuus,ANN_49,ANN1283,48
+ANN1284,Helianthus annuus,ANN_49,ANN1284,48
+ANN1285,Helianthus annuus,ANN_49,ANN1285,48
+ANN1286,Helianthus annuus,ANN_49,ANN1286,50
+ANN1287,Helianthus annuus,ANN_49,ANN1287,8
+ANN1288,Helianthus annuus,ANN_49,ANN1288,52
+ANN1289,Helianthus annuus,ANN_49,ANN1289,48
+ANN1290,Helianthus annuus,ANN_49,ANN1290,48
+ANN1291,Helianthus annuus,ANN_50,ANN1291,86
+ANN1292,Helianthus annuus,ANN_50,ANN1292,86
+ANN1293,Helianthus annuus,ANN_50,ANN1293,65
+ANN1294,Helianthus annuus,ANN_50,ANN1294,86
+ANN1295,Helianthus annuus,ANN_50,ANN1295,61
+ANN1296,Helianthus annuus,ANN_50,ANN1296,65
+ANN1297,Helianthus annuus,ANN_50,ANN1297,65
+ANN1298,Helianthus annuus,ANN_50,ANN1298,65
+ANN1299,Helianthus annuus,ANN_50,ANN1299,65
+ANN1300,Helianthus annuus,ANN_50,ANN1300,86
+ANN1301,Helianthus annuus,ANN_51,ANN1301,65
+ANN1302,Helianthus annuus,ANN_51,ANN1302,86
+ANN1303,Helianthus annuus,ANN_51,ANN1303,65
+ANN1304,Helianthus annuus,ANN_51,ANN1304,52
+ANN1305,Helianthus annuus,ANN_51,ANN1305,65
+ANN1306,Helianthus annuus,ANN_51,ANN1306,65
+ANN1307,Helianthus annuus,ANN_51,ANN1307,65
+ANN1308,Helianthus annuus,ANN_51,ANN1308,65
+ANN1309,Helianthus annuus,ANN_51,ANN1309,65
+ANN1310,Helianthus annuus,ANN_51,ANN1310,64
+ANN1311,Helianthus annuus,ANN_52,ANN1311,86
+ANN1312,Helianthus annuus,ANN_52,ANN1312,65
+ANN1313,Helianthus annuus,ANN_52,ANN1313,65
+ANN1314,Helianthus annuus,ANN_52,ANN1314,86
+ANN1315,Helianthus annuus,ANN_52,ANN1315,86
+ANN1316,Helianthus annuus,ANN_52,ANN1316,86
+ANN1317,Helianthus annuus,ANN_52,ANN1317,86
+ANN1318,Helianthus annuus,ANN_52,ANN1318,86
+ANN1319,Helianthus annuus,ANN_52,ANN1319,86
+ANN1320,Helianthus annuus,ANN_52,ANN1320,60
+ANN1321,Helianthus annuus,ANN_53,ANN1321,86
+ANN1322,Helianthus annuus,ANN_53,ANN1322,86
+ANN1323,Helianthus annuus,ANN_53,ANN1323,86
+ANN1324,Helianthus annuus,ANN_53,ANN1324,86
+ANN1325,Helianthus annuus,ANN_53,ANN1325,86
+ANN1326,Helianthus annuus,ANN_53,ANN1326,86
+ANN1327,Helianthus annuus,ANN_53,ANN1327,86
+ANN1328,Helianthus annuus,ANN_53,ANN1328,86
+ANN1329,Helianthus annuus,ANN_53,ANN1329,86
+ANN1330,Helianthus annuus,ANN_53,ANN1330,86
+ANN1331,Helianthus annuus,ANN_54,ANN1331,86
+ANN1332,Helianthus annuus,ANN_54,ANN1332,86
+ANN1333,Helianthus annuus,ANN_54,ANN1333,84
+ANN1334,Helianthus annuus,ANN_54,ANN1334,86
+ANN1335,Helianthus annuus,ANN_54,ANN1335,82
+ANN1336,Helianthus annuus,ANN_54,ANN1336,86
+ANN1337,Helianthus annuus,ANN_54,ANN1337,61
+ANN1338,Helianthus annuus,ANN_54,ANN1338,86
+ANN1339,Helianthus annuus,ANN_54,ANN1339,86
+ANN1340,Helianthus annuus,ANN_54,ANN1340,86
+ANN1341,Helianthus annuus,ANN_55,ANN1341,86
+ANN1342,Helianthus annuus,ANN_55,ANN1342,86
+ANN1343,Helianthus annuus,ANN_55,ANN1343,86
+ANN1344,Helianthus annuus,ANN_55,ANN1344,86
+ANN1345,Helianthus annuus,ANN_55,ANN1345,86
+ANN1346,Helianthus annuus,ANN_55,ANN1346,85
+ANN1347,Helianthus annuus,ANN_55,ANN1347,86
+ANN1348,Helianthus annuus,ANN_55,ANN1348,86
+ANN1349,Helianthus annuus,ANN_55,ANN1349,65
+ANN1350,Helianthus annuus,ANN_55,ANN1350,86
+ANN1351,Helianthus annuus,ANN_56,ANN1351,86
+ANN1352,Helianthus annuus,ANN_56,ANN1352,86
+ANN1353,Helianthus annuus,ANN_56,ANN1353,86
+ANN1354,Helianthus annuus,ANN_56,ANN1354,86
+ANN1355,Helianthus annuus,ANN_56,ANN1355,86
+ANN1356,Helianthus annuus,ANN_56,ANN1356,86
+ANN1357,Helianthus annuus,ANN_56,ANN1357,65
+ANN1358,Helianthus annuus,ANN_56,ANN1358,65
+ANN1359,Helianthus annuus,ANN_56,ANN1359,86
+ANN1360,Helianthus annuus,ANN_56,ANN1360,86
+ANN1361,Helianthus annuus,ANN_57,ANN1361,86
+ANN1362,Helianthus annuus,ANN_57,ANN1362,65
+ANN1363,Helianthus annuus,ANN_57,ANN1363,86
+ANN1364,Helianthus annuus,ANN_57,ANN1364,86
+ANN1365,Helianthus annuus,ANN_57,ANN1365,86
+ANN1366,Helianthus annuus,ANN_57,ANN1366,86
+ANN1367,Helianthus annuus,ANN_57,ANN1367,86
+ANN1368,Helianthus annuus,ANN_57,ANN1368,86
+ANN1369,Helianthus annuus,ANN_57,ANN1369,86
+ANN1370,Helianthus annuus,ANN_57,ANN1370,86
+ANN1371,Helianthus annuus,ANN_58,ANN1371,86
+ANN1372,Helianthus annuus,ANN_58,ANN1372,86
+ANN1373,Helianthus annuus,ANN_58,ANN1373,86
+ANN1374,Helianthus annuus,ANN_58,ANN1374,86
+ANN1375,Helianthus annuus,ANN_58,ANN1375,86
+ANN1376,Helianthus annuus,ANN_58,ANN1376,86
+ANN1377,Helianthus annuus,ANN_58,ANN1377,86
+ANN1378,Helianthus annuus,ANN_58,ANN1378,86
+ANN1379,Helianthus annuus,ANN_58,ANN1379,86
+ANN1380,Helianthus annuus,ANN_58,ANN1380,85
+ANN1381,Helianthus annuus,ANN_59,ANN1381,86
+ANN1382,Helianthus annuus,ANN_59,ANN1382,86
+ANN1383,Helianthus annuus,ANN_59,ANN1383,86
+ANN1384,Helianthus annuus,ANN_59,ANN1384,86
+ANN1385,Helianthus annuus,ANN_59,ANN1385,86
+ANN1386,Helianthus annuus,ANN_59,ANN1386,86
+ANN1387,Helianthus annuus,ANN_59,ANN1387,86
+ANN1388,Helianthus annuus,ANN_59,ANN1388,86
+ANN1389,Helianthus annuus,ANN_59,ANN1389,86
+ANN1390,Helianthus annuus,ANN_59,ANN1390,85
+ANN1391,Helianthus annuus,ANN_60,ANN1391,86
+ANN1392,Helianthus annuus,ANN_60,ANN1392,86
+ANN1393,Helianthus annuus,ANN_60,ANN1393,86
+ANN1394,Helianthus annuus,ANN_60,ANN1394,86
+ANN1395,Helianthus annuus,ANN_60,ANN1395,86
+ANN1396,Helianthus annuus,ANN_60,ANN1396,84
+ANN1397,Helianthus annuus,ANN_60,ANN1397,86
+ANN1398,Helianthus annuus,ANN_60,ANN1398,86
+ANN1399,Helianthus annuus,ANN_60,ANN1399,86
+ANN1400,Helianthus annuus,ANN_60,ANN1400,86
+ANN1401,Helianthus annuus,ANN_61,ANN1401,86
+ANN1402,Helianthus annuus,ANN_61,ANN1402,86
+ANN1403,Helianthus annuus,ANN_61,ANN1403,85
+ANN1404,Helianthus annuus,ANN_61,ANN1404,86
+ANN1405,Helianthus annuus,ANN_61,ANN1405,86
+ANN1406,Helianthus annuus,ANN_61,ANN1406,86
+ANN1407,Helianthus annuus,ANN_61,ANN1407,86
+ANN1408,Helianthus annuus,ANN_61,ANN1408,86
+ANN1409,Helianthus annuus,ANN_61,ANN1409,65
+ANN1410,Helianthus annuus,ANN_61,ANN1410,65
+ANN1411,Helianthus annuus,ANN_62,,0
+ANN1412,Helianthus annuus,ANN_62,,0
+ANN1413,Helianthus annuus,ANN_62,,0
+ANN1414,Helianthus annuus,ANN_62,,0
+ANN1415,Helianthus annuus,ANN_62,,0
+ANN1416,Helianthus annuus,ANN_62,,0
+ANN1417,Helianthus annuus,ANN_62,,0
+ANN1418,Helianthus annuus,ANN_62,,0
+ANN1419,Helianthus annuus,ANN_62,ANN1419,86
+ANN1420,Helianthus annuus,ANN_62,ANN1420,86
+ANN1421,Helianthus annuus,ANN_63,,0
+ANN1422,Helianthus annuus,ANN_63,,0
+ANN1423,Helianthus annuus,ANN_63,,0
+ANN1424,Helianthus annuus,ANN_63,,0
+ANN1425,Helianthus annuus,ANN_63,,0
+ANN1426,Helianthus annuus,ANN_63,,0
+ANN1427,Helianthus annuus,ANN_63,,0
+ANN1428,Helianthus annuus,ANN_63,,0
+ANN1429,Helianthus annuus,ANN_63,,0
+ANN1430,Helianthus annuus,ANN_63,,0
+ANN1431,Helianthus annuus,ANN_64,,0
+ANN1432,Helianthus annuus,ANN_64,,0
+ANN1433,Helianthus annuus,ANN_64,,0
+ANN1434,Helianthus annuus,ANN_64,,0
+ANN1435,Helianthus annuus,ANN_64,,0
+ANN1436,Helianthus annuus,ANN_64,,0
+ANN1437,Helianthus annuus,ANN_64,,0
+ANN1438,Helianthus annuus,ANN_64,,0
+ANN1439,Helianthus annuus,ANN_64,ANN1439,65
+ANN1440,Helianthus annuus,ANN_64,,0
+ANN1441,Helianthus annuus,ANN_65,,0
+ANN1442,Helianthus annuus,ANN_65,,0
+ANN1443,Helianthus annuus,ANN_65,,0
+ANN1444,Helianthus annuus,ANN_65,,0
+ANN1445,Helianthus annuus,ANN_65,,0
+ANN1446,Helianthus annuus,ANN_65,,0
+ANN1447,Helianthus annuus,ANN_65,,0
+ANN1448,Helianthus annuus,ANN_65,,0
+ANN1449,Helianthus annuus,ANN_65,,0
+ANN1450,Helianthus annuus,ANN_65,,0
+ANN1451,Helianthus annuus,ANN_66,,0
+ANN1452,Helianthus annuus,ANN_66,,0
+ANN1453,Helianthus annuus,ANN_66,,0
+ANN1454,Helianthus annuus,ANN_66,,0
+ANN1455,Helianthus annuus,ANN_66,,0
+ANN1456,Helianthus annuus,ANN_66,,0
+ANN1457,Helianthus annuus,ANN_66,,0
+ANN1458,Helianthus annuus,ANN_66,,0
+ANN1459,Helianthus annuus,ANN_66,,0
+ANN1460,Helianthus annuus,ANN_66,,0
+ANN1461,Helianthus annuus,ANN_67,,0
+ANN1462,Helianthus annuus,ANN_67,,0
+ANN1463,Helianthus annuus,ANN_67,,0
+ANN1464,Helianthus annuus,ANN_67,,0
+ANN1465,Helianthus annuus,ANN_67,,0
+ANN1466,Helianthus annuus,ANN_67,,0
+ANN1467,Helianthus annuus,ANN_67,,0
+ANN1468,Helianthus annuus,ANN_67,,0
+ANN1469,Helianthus annuus,ANN_67,,0
+ANN1470,Helianthus annuus,ANN_67,,0
+ANN1471,Helianthus annuus,ANN_68,,0
+ANN1472,Helianthus annuus,ANN_68,,0
+ANN1473,Helianthus annuus,ANN_68,,0
+ANN1474,Helianthus annuus,ANN_68,,0
+ANN1475,Helianthus annuus,ANN_68,,0
+ANN1476,Helianthus annuus,ANN_68,,0
+ANN1477,Helianthus annuus,ANN_68,,0
+ANN1478,Helianthus annuus,ANN_68,,0
+ANN1479,Helianthus annuus,ANN_68,,0
+ANN1480,Helianthus annuus,ANN_68,,0
+ANN1481,Helianthus annuus,ANN_69,,0
+ANN1482,Helianthus annuus,ANN_69,,0
+ANN1483,Helianthus annuus,ANN_69,,0
+ANN1484,Helianthus annuus,ANN_69,,0
+ANN1485,Helianthus annuus,ANN_69,,0
+ANN1486,Helianthus annuus,ANN_69,,0
+ANN1487,Helianthus annuus,ANN_69,,0
+ANN1488,Helianthus annuus,ANN_69,,0
+ANN1489,Helianthus annuus,ANN_69,,0
+ANN1490,Helianthus annuus,ANN_69,,0
+ANN1491,Helianthus annuus,ANN_70,,0
+ANN1492,Helianthus annuus,ANN_70,,0
+ANN1493,Helianthus annuus,ANN_70,,0
+ANN1494,Helianthus annuus,ANN_70,,0
+ANN1495,Helianthus annuus,ANN_70,,0
+ANN1496,Helianthus annuus,ANN_70,,0
+ANN1497,Helianthus annuus,ANN_70,,0
+ANN1498,Helianthus annuus,ANN_70,,0
+ANN1499,Helianthus annuus,ANN_70,,0
+ANN1500,Helianthus annuus,ANN_70,,0
+ANN1501,Helianthus annuus,ANN_71,ANN1501,65
+ANN1502,Helianthus annuus,ANN_71,,0
+ANN1503,Helianthus annuus,ANN_71,,0
+ANN1504,Helianthus annuus,ANN_71,,0
+ANN1505,Helianthus annuus,ANN_71,,0
+ANN1506,Helianthus annuus,ANN_71,,0
+ANN1507,Helianthus annuus,ANN_71,,0
+ANN1508,Helianthus annuus,ANN_71,,0
+ANN1509,Helianthus annuus,ANN_71,,0
+ANN1510,Helianthus annuus,ANN_71,,0
+ARG0001,Helianthus argophyllus,ARG_01,ARG0001,30
+ARG0002,Helianthus argophyllus,ARG_01,ARG0002,30
+ARG0003,Helianthus argophyllus,ARG_01,ARG0003,30
+ARG0004,Helianthus argophyllus,ARG_01,ARG0004,30
+ARG0005,Helianthus argophyllus,ARG_01,ARG0005,30
+ARG0006,Helianthus argophyllus,ARG_01,ARG0006,30
+ARG0007,Helianthus argophyllus,ARG_01,ARG0007,30
+ARG0008,Helianthus argophyllus,ARG_01,ARG0008,30
+ARG0009,Helianthus argophyllus,ARG_01,ARG0009,30
+ARG0010,Helianthus argophyllus,ARG_01,ARG0010,30
+ARG0011,Helianthus argophyllus,ARG_02,ARG0011,30
+ARG0012,Helianthus argophyllus,ARG_02,ARG0012,30
+ARG0013,Helianthus argophyllus,ARG_02,ARG0013,30
+ARG0014,Helianthus argophyllus,ARG_02,ARG0014,1
+ARG0015,Helianthus argophyllus,ARG_02,ARG0015,30
+ARG0016,Helianthus argophyllus,ARG_02,ARG0016,30
+ARG0017,Helianthus argophyllus,ARG_02,ARG0017,30
+ARG0018,Helianthus argophyllus,ARG_02,ARG0018,30
+ARG0019,Helianthus argophyllus,ARG_02,ARG0019,30
+ARG0020,Helianthus argophyllus,ARG_02,ARG0020,30
+ARG0021,Helianthus argophyllus,ARG_03,ARG0021,30
+ARG0022,Helianthus argophyllus,ARG_03,ARG0022,1
+ARG0023,Helianthus argophyllus,ARG_03,ARG0023,30
+ARG0024,Helianthus argophyllus,ARG_03,ARG0024,30
+ARG0025,Helianthus argophyllus,ARG_03,ARG0025,30
+ARG0026,Helianthus argophyllus,ARG_03,ARG0026,30
+ARG0027,Helianthus argophyllus,ARG_03,ARG0027,30
+ARG0028,Helianthus argophyllus,ARG_03,ARG0028,1
+ARG0029,Helianthus argophyllus,ARG_03,ARG0029,30
+ARG0030,Helianthus argophyllus,ARG_03,ARG0030,30
+ARG0031,Helianthus argophyllus,ARG_04,ARG0031,30
+ARG0032,Helianthus argophyllus,ARG_04,ARG0032,30
+ARG0033,Helianthus argophyllus,ARG_04,ARG0033,30
+ARG0034,Helianthus argophyllus,ARG_04,ARG0034,30
+ARG0035,Helianthus argophyllus,ARG_04,ARG0035,30
+ARG0036,Helianthus argophyllus,ARG_04,ARG0036,30
+ARG0037,Helianthus argophyllus,ARG_04,ARG0037,30
+ARG0038,Helianthus argophyllus,ARG_04,ARG0038,30
+ARG0039,Helianthus argophyllus,ARG_04,ARG0039,30
+ARG0040,Helianthus argophyllus,ARG_04,ARG0040,30
+ARG0041,Helianthus argophyllus,ARG_05,ARG0041,30
+ARG0042,Helianthus argophyllus,ARG_05,ARG0042,30
+ARG0043,Helianthus argophyllus,ARG_05,ARG0043,30
+ARG0044,Helianthus argophyllus,ARG_05,ARG0044N,30
+ARG0045,Helianthus argophyllus,ARG_05,ARG0045,30
+ARG0046,Helianthus argophyllus,ARG_05,ARG0046,30
+ARG0047,Helianthus argophyllus,ARG_05,ARG0047,30
+ARG0048,Helianthus argophyllus,ARG_05,ARG0048N,30
+ARG0049,Helianthus argophyllus,ARG_05,ARG0049,29
+ARG0050,Helianthus argophyllus,ARG_05,ARG0050,30
+ARG0051,Helianthus argophyllus,ARG_06,ARG0051,30
+ARG0052,Helianthus argophyllus,ARG_06,ARG0052,30
+ARG0053,Helianthus argophyllus,ARG_06,ARG0053,30
+ARG0054,Helianthus argophyllus,ARG_06,ARG0054,30
+ARG0055,Helianthus argophyllus,ARG_06,ARG0055,30
+ARG0056,Helianthus argophyllus,ARG_06,ARG0056,30
+ARG0057,Helianthus argophyllus,ARG_06,ARG0057,30
+ARG0058,Helianthus argophyllus,ARG_06,ARG0058,30
+ARG0059,Helianthus argophyllus,ARG_06,ARG0059,30
+ARG0060,Helianthus argophyllus,ARG_06,ARG0060,4
+ARG0061,Helianthus argophyllus,ARG_07,ARG0061,30
+ARG0062,Helianthus argophyllus,ARG_07,ARG0062N,30
+ARG0063,Helianthus argophyllus,ARG_07,ARG0063,30
+ARG0064,Helianthus argophyllus,ARG_07,ARG0064,30
+ARG0065,Helianthus argophyllus,ARG_07,ARG0065,30
+ARG0066,Helianthus argophyllus,ARG_07,ARG0066,30
+ARG0067,Helianthus argophyllus,ARG_07,ARG0067,30
+ARG0068,Helianthus argophyllus,ARG_07,ARG0068,30
+ARG0069,Helianthus argophyllus,ARG_07,ARG0069,30
+ARG0070,Helianthus argophyllus,ARG_07,ARG0070,30
+ARG0071,Helianthus argophyllus,ARG_08,ARG0071,30
+ARG0072,Helianthus argophyllus,ARG_08,ARG0072,30
+ARG0073,Helianthus argophyllus,ARG_08,ARG0073,30
+ARG0074,Helianthus argophyllus,ARG_08,ARG0074,30
+ARG0075,Helianthus argophyllus,ARG_08,ARG0075,30
+ARG0076,Helianthus argophyllus,ARG_08,ARG0076,30
+ARG0077,Helianthus argophyllus,ARG_08,ARG0077,30
+ARG0078,Helianthus argophyllus,ARG_08,ARG0078,30
+ARG0079,Helianthus argophyllus,ARG_08,ARG0079,30
+ARG0080,Helianthus argophyllus,ARG_08,ARG0080,30
+ARG0081,Helianthus argophyllus,ARG_09,ARG0081,30
+ARG0082,Helianthus argophyllus,ARG_09,ARG0082,30
+ARG0083,Helianthus argophyllus,ARG_09,ARG0083,3
+ARG0084,Helianthus argophyllus,ARG_09,ARG0084,30
+ARG0085,Helianthus argophyllus,ARG_09,ARG0085,30
+ARG0086,Helianthus argophyllus,ARG_09,ARG0086,30
+ARG0087,Helianthus argophyllus,ARG_09,ARG0087N,30
+ARG0088,Helianthus argophyllus,ARG_09,ARG0088,30
+ARG0089,Helianthus argophyllus,ARG_09,ARG0089,29
+ARG0090,Helianthus argophyllus,ARG_09,ARG0090,30
+ARG0091,Helianthus argophyllus,ARG_10,ARG0091,30
+ARG0092,Helianthus argophyllus,ARG_10,ARG0092,30
+ARG0093,Helianthus argophyllus,ARG_10,ARG0093,29
+ARG0094,Helianthus argophyllus,ARG_10,ARG0094,30
+ARG0095,Helianthus argophyllus,ARG_10,ARG0095,30
+ARG0096,Helianthus argophyllus,ARG_10,ARG0096,30
+ARG0097,Helianthus argophyllus,ARG_10,ARG0097,30
+ARG0098,Helianthus argophyllus,ARG_10,ARG0098,0
+ARG0099,Helianthus argophyllus,ARG_10,ARG0099,30
+ARG0100,Helianthus argophyllus,ARG_10,ARG0100,25
+ARG0101,Helianthus argophyllus,ARG_11,ARG0101,4
+ARG0102,Helianthus argophyllus,ARG_11,ARG0102,0
+ARG0103,Helianthus argophyllus,ARG_11,ARG0103,29
+ARG0104,Helianthus argophyllus,ARG_11,ARG0104,29
+ARG0105,Helianthus argophyllus,ARG_11,ARG0105,30
+ARG0106,Helianthus argophyllus,ARG_11,ARG0106,30
+ARG0107,Helianthus argophyllus,ARG_11,ARG0107,0
+ARG0108,Helianthus argophyllus,ARG_11,ARG0108,30
+ARG0109,Helianthus argophyllus,ARG_11,ARG0109,30
+ARG0110,Helianthus argophyllus,ARG_11,ARG0110,29
+ARG0111,Helianthus argophyllus,ARG_12,ARG0111,30
+ARG0112,Helianthus argophyllus,ARG_12,ARG0112,29
+ARG0113,Helianthus argophyllus,ARG_12,ARG0113,30
+ARG0114,Helianthus argophyllus,ARG_12,ARG0114,30
+ARG0115,Helianthus argophyllus,ARG_12,ARG0115,30
+ARG0116,Helianthus argophyllus,ARG_12,ARG0116,30
+ARG0117,Helianthus argophyllus,ARG_12,ARG0117,30
+ARG0118,Helianthus argophyllus,ARG_12,ARG0118,30
+ARG0119,Helianthus argophyllus,ARG_12,ARG0119,30
+ARG0120,Helianthus argophyllus,ARG_12,ARG0120,30
+ARG0121,Helianthus argophyllus,ARG_13,ARG0121,30
+ARG0122,Helianthus argophyllus,ARG_13,ARG0122,30
+ARG0123,Helianthus argophyllus,ARG_13,ARG0123,30
+ARG0124,Helianthus argophyllus,ARG_13,ARG0124,30
+ARG0125,Helianthus argophyllus,ARG_13,ARG0125,30
+ARG0126,Helianthus argophyllus,ARG_13,ARG0126,30
+ARG0127,Helianthus argophyllus,ARG_13,ARG0127,30
+ARG0128,Helianthus argophyllus,ARG_13,ARG0128,30
+ARG0129,Helianthus argophyllus,ARG_13,ARG0129,30
+ARG0130,Helianthus argophyllus,ARG_13,ARG0130,30
+ARG0131,Helianthus argophyllus,ARG_14,ARG0131,30
+ARG0132,Helianthus argophyllus,ARG_14,ARG0132,30
+ARG0133,Helianthus argophyllus,ARG_14,ARG0133,30
+ARG0134,Helianthus argophyllus,ARG_14,ARG0134N,30
+ARG0135,Helianthus argophyllus,ARG_14,ARG0135,30
+ARG0136,Helianthus argophyllus,ARG_14,ARG0136N,30
+ARG0137,Helianthus argophyllus,ARG_14,ARG0137,30
+ARG0138,Helianthus argophyllus,ARG_14,ARG0138,30
+ARG0139,Helianthus argophyllus,ARG_14,ARG0139,30
+ARG0140,Helianthus argophyllus,ARG_14,ARG0140,30
+ARG0141,Helianthus argophyllus,ARG_15,ARG0141,30
+ARG0142,Helianthus argophyllus,ARG_15,ARG0142,30
+ARG0143,Helianthus argophyllus,ARG_15,ARG0143,30
+ARG0144,Helianthus argophyllus,ARG_15,ARG0144,30
+ARG0145,Helianthus argophyllus,ARG_15,ARG0145,30
+ARG0146,Helianthus argophyllus,ARG_15,ARG0146,30
+ARG0147,Helianthus argophyllus,ARG_15,ARG0147,30
+ARG0148,Helianthus argophyllus,ARG_15,ARG0148,30
+ARG0149,Helianthus argophyllus,ARG_15,ARG0149,30
+ARG0150,Helianthus argophyllus,ARG_15,ARG0150,30
+ARG0151,Helianthus argophyllus,ARG_16,ARG0151,30
+ARG0152,Helianthus argophyllus,ARG_16,ARG0152,30
+ARG0153,Helianthus argophyllus,ARG_16,ARG0153,30
+ARG0154,Helianthus argophyllus,ARG_16,ARG0154,30
+ARG0155,Helianthus argophyllus,ARG_16,ARG0155,30
+ARG0156,Helianthus argophyllus,ARG_16,ARG0156,30
+ARG0157,Helianthus argophyllus,ARG_16,ARG0157,30
+ARG0158,Helianthus argophyllus,ARG_16,ARG0158,30
+ARG0159,Helianthus argophyllus,ARG_16,ARG0159,30
+ARG0160,Helianthus argophyllus,ARG_16,ARG0160,30
+ARG0161,Helianthus argophyllus,ARG_17,ARG0161,29
+ARG0162,Helianthus argophyllus,ARG_17,ARG0162,30
+ARG0163,Helianthus argophyllus,ARG_17,ARG0163,30
+ARG0164,Helianthus argophyllus,ARG_17,ARG0164,30
+ARG0165,Helianthus argophyllus,ARG_17,,0
+ARG0166,Helianthus argophyllus,ARG_17,ARG0166,30
+ARG0167,Helianthus argophyllus,ARG_17,ARG0167,30
+ARG0168,Helianthus argophyllus,ARG_17,ARG0168,30
+ARG0169,Helianthus argophyllus,ARG_17,ARG0169,30
+ARG0170,Helianthus argophyllus,ARG_17,ARG0170,30
+ARG0171,Helianthus argophyllus,ARG_18,ARG0171,30
+ARG0172,Helianthus argophyllus,ARG_18,ARG0172,30
+ARG0173,Helianthus argophyllus,ARG_18,ARG0173,30
+ARG0174,Helianthus argophyllus,ARG_18,ARG0174,30
+ARG0175,Helianthus argophyllus,ARG_18,ARG0175,30
+ARG0176,Helianthus argophyllus,ARG_18,ARG0176,30
+ARG0177,Helianthus argophyllus,ARG_18,ARG0177,30
+ARG0178,Helianthus argophyllus,ARG_18,ARG0178,4
+ARG0179,Helianthus argophyllus,ARG_18,ARG0179,30
+ARG0180,Helianthus argophyllus,ARG_18,ARG0180,30
+ARG0181,Helianthus argophyllus,ARG_19,ARG0181,30
+ARG0182,Helianthus argophyllus,ARG_19,ARG0182,30
+ARG0183,Helianthus argophyllus,ARG_19,ARG0183,30
+ARG0184,Helianthus argophyllus,ARG_19,ARG0184,30
+ARG0185,Helianthus argophyllus,ARG_19,ARG0185,30
+ARG0186,Helianthus argophyllus,ARG_19,ARG0186,30
+ARG0187,Helianthus argophyllus,ARG_19,ARG0187,29
+ARG0188,Helianthus argophyllus,ARG_19,ARG0188,30
+ARG0189,Helianthus argophyllus,ARG_19,ARG0189,30
+ARG0190,Helianthus argophyllus,ARG_19,ARG0190,30
+ARG0191,Helianthus argophyllus,ARG_20,ARG0191,30
+ARG0192,Helianthus argophyllus,ARG_20,ARG0192,30
+ARG0193,Helianthus argophyllus,ARG_20,ARG0193N,30
+ARG0194,Helianthus argophyllus,ARG_20,ARG0194,30
+ARG0195,Helianthus argophyllus,ARG_20,ARG0195,30
+ARG0196,Helianthus argophyllus,ARG_20,ARG0196,30
+ARG0197,Helianthus argophyllus,ARG_20,ARG0197,30
+ARG0198,Helianthus argophyllus,ARG_20,ARG0198,30
+ARG0199,Helianthus argophyllus,ARG_20,ARG0199,30
+ARG0200,Helianthus argophyllus,ARG_20,ARG0200,30
+ARG0201,Helianthus argophyllus,ARG_21,ARG0201,30
+ARG0202,Helianthus argophyllus,ARG_21,ARG0202,30
+ARG0203,Helianthus argophyllus,ARG_21,ARG0203,30
+ARG0204,Helianthus argophyllus,ARG_21,ARG0204,30
+ARG0205,Helianthus argophyllus,ARG_21,ARG0205,29
+ARG0206,Helianthus argophyllus,ARG_21,ARG0206,30
+ARG0207,Helianthus argophyllus,ARG_21,ARG0207,30
+ARG0208,Helianthus argophyllus,ARG_21,ARG0208,30
+ARG0209,Helianthus argophyllus,ARG_21,ARG0209,30
+ARG0210,Helianthus argophyllus,ARG_21,ARG0210,30
+ARG0211,Helianthus argophyllus,ARG_22,ARG0211,30
+ARG0212,Helianthus argophyllus,ARG_22,ARG0212,30
+ARG0213,Helianthus argophyllus,ARG_22,ARG0213,30
+ARG0214,Helianthus argophyllus,ARG_22,ARG0214,30
+ARG0215,Helianthus argophyllus,ARG_22,ARG0215,30
+ARG0216,Helianthus argophyllus,ARG_22,ARG0216,30
+ARG0217,Helianthus argophyllus,ARG_22,ARG0217,30
+ARG0218,Helianthus argophyllus,ARG_22,ARG0218,1
+ARG0219,Helianthus argophyllus,ARG_22,ARG0219,29
+ARG0220,Helianthus argophyllus,ARG_22,ARG0220,30
+ARG0221,Helianthus argophyllus,ARG_23,ARG0221,30
+ARG0222,Helianthus argophyllus,ARG_23,ARG0222,30
+ARG0223,Helianthus argophyllus,ARG_23,ARG0223,30
+ARG0224,Helianthus argophyllus,ARG_23,ARG0224,30
+ARG0225,Helianthus argophyllus,ARG_23,ARG0225N,30
+ARG0226,Helianthus argophyllus,ARG_23,ARG0226N,30
+ARG0227,Helianthus argophyllus,ARG_23,ARG0227,30
+ARG0228,Helianthus argophyllus,ARG_23,ARG0228,30
+ARG0229,Helianthus argophyllus,ARG_23,ARG0229,30
+ARG0230,Helianthus argophyllus,ARG_23,ARG0230N,30
+ARG0231,Helianthus argophyllus,ARG_24,ARG0231,30
+ARG0232,Helianthus argophyllus,ARG_24,ARG0232,30
+ARG0233,Helianthus argophyllus,ARG_24,ARG0233,30
+ARG0234,Helianthus argophyllus,ARG_24,ARG0234,30
+ARG0235,Helianthus argophyllus,ARG_24,ARG0235,30
+ARG0236,Helianthus argophyllus,ARG_24,ARG0236,30
+ARG0237,Helianthus argophyllus,ARG_24,ARG0237,4
+ARG0238,Helianthus argophyllus,ARG_24,ARG0238,30
+ARG0239,Helianthus argophyllus,ARG_24,ARG0239,1
+ARG0240,Helianthus argophyllus,ARG_24,ARG0240,30
+ARG0241,Helianthus argophyllus,ARG_25,ARG0241,30
+ARG0242,Helianthus argophyllus,ARG_25,ARG0242,30
+ARG0243,Helianthus argophyllus,ARG_25,ARG0243,30
+ARG0244,Helianthus argophyllus,ARG_25,ARG0244,30
+ARG0245,Helianthus argophyllus,ARG_25,ARG0245,30
+ARG0246,Helianthus argophyllus,ARG_25,ARG0246,30
+ARG0247,Helianthus argophyllus,ARG_25,ARG0247,30
+ARG0248,Helianthus argophyllus,ARG_25,ARG0248,30
+ARG0249,Helianthus argophyllus,ARG_25,ARG0249,30
+ARG0250,Helianthus argophyllus,ARG_25,ARG0250,30
+ARG0251,Helianthus argophyllus,ARG_26,ARG0251,30
+ARG0252,Helianthus argophyllus,ARG_26,ARG0252,29
+ARG0253,Helianthus argophyllus,ARG_26,ARG0253,30
+ARG0254,Helianthus argophyllus,ARG_26,ARG0254,29
+ARG0255,Helianthus argophyllus,ARG_26,ARG0255,30
+ARG0256,Helianthus argophyllus,ARG_26,ARG0256,30
+ARG0257,Helianthus argophyllus,ARG_26,ARG0257,30
+ARG0258,Helianthus argophyllus,ARG_26,ARG0258,30
+ARG0259,Helianthus argophyllus,ARG_26,ARG0259,12
+ARG0260,Helianthus argophyllus,ARG_26,ARG0260,30
+ARG0261,Helianthus argophyllus,ARG_27,ARG0261,30
+ARG0262,Helianthus argophyllus,ARG_27,ARG0262,30
+ARG0263,Helianthus argophyllus,ARG_27,ARG0263,30
+ARG0264,Helianthus argophyllus,ARG_27,ARG0264,30
+ARG0265,Helianthus argophyllus,ARG_27,ARG0265,30
+ARG0266,Helianthus argophyllus,ARG_27,ARG0266N,30
+ARG0267,Helianthus argophyllus,ARG_27,ARG0267N,30
+ARG0268,Helianthus argophyllus,ARG_27,ARG0268,30
+ARG0269,Helianthus argophyllus,ARG_27,ARG0269,30
+ARG0270,Helianthus argophyllus,ARG_27,ARG0270,30
+ARG0271,Helianthus argophyllus,ARG_28,ARG0271,30
+ARG0272,Helianthus argophyllus,ARG_28,ARG0272,30
+ARG0273,Helianthus argophyllus,ARG_28,ARG0273,30
+ARG0274,Helianthus argophyllus,ARG_28,ARG0274,30
+ARG0275,Helianthus argophyllus,ARG_28,ARG0275,30
+ARG0276,Helianthus argophyllus,ARG_28,ARG0276,30
+ARG0277,Helianthus argophyllus,ARG_28,ARG0277N,30
+ARG0278,Helianthus argophyllus,ARG_28,ARG0278N,30
+ARG0279,Helianthus argophyllus,ARG_28,ARG0279,30
+ARG0280,Helianthus argophyllus,ARG_28,ARG0280,30
+ARG0281,Helianthus argophyllus,ARG_29,ARG0281,30
+ARG0282,Helianthus argophyllus,ARG_29,ARG0282,29
+ARG0283,Helianthus argophyllus,ARG_29,ARG0283,30
+ARG0284,Helianthus argophyllus,ARG_29,ARG0284,30
+ARG0285,Helianthus argophyllus,ARG_29,ARG0285,30
+ARG0286,Helianthus argophyllus,ARG_29,ARG0286,26
+ARG0287,Helianthus argophyllus,ARG_29,ARG0287,29
+ARG0288,Helianthus argophyllus,ARG_29,ARG0288,30
+ARG0289,Helianthus argophyllus,ARG_29,ARG0289,30
+ARG0290,Helianthus argophyllus,ARG_29,ARG0290,30
+ARG0291,Helianthus argophyllus,ARG_30,ARG0291,30
+ARG0292,Helianthus argophyllus,ARG_30,ARG0292,30
+ARG0293,Helianthus argophyllus,ARG_30,ARG0293,30
+ARG0294,Helianthus argophyllus,ARG_30,ARG0294,30
+ARG0295,Helianthus argophyllus,ARG_30,ARG0295,30
+ARG0296,Helianthus argophyllus,ARG_30,ARG0296,30
+ARG0297,Helianthus argophyllus,ARG_30,ARG0297,30
+ARG0298,Helianthus argophyllus,ARG_30,ARG0298N,30
+ARG0299,Helianthus argophyllus,ARG_30,ARG0299,30
+ARG0300,Helianthus argophyllus,ARG_30,ARG0300,14
+PET0301,Helianthus petiolaris subsp. fallax,PET_01,PET0301,48
+PET0302,Helianthus petiolaris subsp. fallax,PET_01,PET0302,48
+PET0303,Helianthus petiolaris subsp. fallax,PET_01,PET0303,69
+PET0304,Helianthus petiolaris subsp. fallax,PET_01,PET0304,69
+PET0305,Helianthus petiolaris subsp. fallax,PET_01,PET0305,69
+PET0306,Helianthus petiolaris subsp. fallax,PET_01,PET0306,66
+PET0307,Helianthus petiolaris subsp. fallax,PET_01,PET0307,69
+PET0308,Helianthus petiolaris subsp. fallax,PET_01,PET0308,69
+PET0309,Helianthus petiolaris subsp. fallax,PET_01,PET0309N,13
+PET0310,Helianthus petiolaris subsp. fallax,PET_01,PET0310,69
+PET0311,Helianthus petiolaris subsp. fallax,PET_02,PET0311,5
+PET0312,Helianthus petiolaris subsp. fallax,PET_02,PET0312,69
+PET0313,Helianthus petiolaris subsp. fallax,PET_02,PET0313,68
+PET0314,Helianthus petiolaris subsp. fallax,PET_02,PET0314,68
+PET0315,Helianthus petiolaris subsp. fallax,PET_02,PET0315,69
+PET0316,Helianthus petiolaris subsp. fallax,PET_02,PET0316,69
+PET0317,Helianthus petiolaris subsp. fallax,PET_02,PET0317,69
+PET0318,Helianthus petiolaris subsp. fallax,PET_02,PET0318,69
+PET0319,Helianthus petiolaris subsp. fallax,PET_02,PET0319,69
+PET0320,Helianthus petiolaris subsp. fallax,PET_02,PET0320,69
+PET0321,Helianthus petiolaris subsp. fallax,PET_03,PET0321,69
+PET0322,Helianthus petiolaris subsp. fallax,PET_03,PET0322,69
+PET0323,Helianthus petiolaris subsp. fallax,PET_03,PET0323,67
+PET0324,Helianthus petiolaris subsp. fallax,PET_03,PET0324,69
+PET0325,Helianthus petiolaris subsp. fallax,PET_03,PET0325,69
+PET0326,Helianthus petiolaris subsp. fallax,PET_03,PET0326,69
+PET0327,Helianthus petiolaris subsp. fallax,PET_03,PET0327,69
+PET0328,Helianthus petiolaris subsp. fallax,PET_03,PET0328,69
+PET0329,Helianthus petiolaris subsp. fallax,PET_03,PET0329,69
+PET0330,Helianthus petiolaris subsp. fallax,PET_03,PET0330,69
+PET0331,Helianthus petiolaris subsp. fallax,PET_04,PET0331,68
+PET0332,Helianthus petiolaris subsp. fallax,PET_04,PET0332,67
+PET0333,Helianthus petiolaris subsp. fallax,PET_04,PET0333,69
+PET0334,Helianthus petiolaris subsp. fallax,PET_04,PET0334,67
+PET0335,Helianthus petiolaris subsp. fallax,PET_04,PET0335,69
+PET0336,Helianthus petiolaris subsp. fallax,PET_04,PET0336,69
+PET0337,Helianthus petiolaris subsp. fallax,PET_04,PET0337,69
+PET0338,Helianthus petiolaris subsp. fallax,PET_04,PET0338,69
+PET0339,Helianthus petiolaris subsp. fallax,PET_04,PET0339,69
+PET0340,Helianthus petiolaris subsp. fallax,PET_04,PET0340,63
+PET0341,Helianthus petiolaris subsp. fallax,PET_05,PET0341,46
+PET0342,Helianthus petiolaris subsp. fallax,PET_05,PET0342,61
+PET0343,Helianthus petiolaris subsp. fallax,PET_05,PET0343,69
+PET0344,Helianthus petiolaris subsp. fallax,PET_05,PET0344,69
+PET0345,Helianthus petiolaris subsp. fallax,PET_05,PET0345,69
+PET0346,Helianthus petiolaris subsp. fallax,PET_05,PET0346,48
+PET0347,Helianthus petiolaris subsp. fallax,PET_05,PET0347,68
+PET0348,Helianthus petiolaris subsp. fallax,PET_05,PET0348,69
+PET0349,Helianthus petiolaris subsp. fallax,PET_05,PET0349,1
+PET0350,Helianthus petiolaris subsp. fallax,PET_05,PET0350,1
+PET0351,Helianthus petiolaris subsp. fallax,PET_06,PET0351,69
+PET0352,Helianthus petiolaris subsp. fallax,PET_06,PET0352,69
+PET0353,Helianthus petiolaris subsp. fallax,PET_06,PET0353,69
+PET0354,Helianthus petiolaris subsp. fallax,PET_06,PET0354,68
+PET0355,Helianthus petiolaris subsp. fallax,PET_06,PET0355,69
+PET0356,Helianthus petiolaris subsp. fallax,PET_06,PET0356,69
+PET0357,Helianthus petiolaris subsp. fallax,PET_06,PET0357,69
+PET0358,Helianthus petiolaris subsp. fallax,PET_06,PET0358,68
+PET0359,Helianthus petiolaris subsp. fallax,PET_06,PET0359,69
+PET0360,Helianthus petiolaris subsp. fallax,PET_06,PET0360,68
+PET0361,Helianthus petiolaris subsp. fallax,PET_07,PET0361N,69
+PET0362,Helianthus petiolaris subsp. fallax,PET_07,PET0362,69
+PET0363,Helianthus petiolaris subsp. fallax,PET_07,PET0363,46
+PET0364,Helianthus petiolaris subsp. fallax,PET_07,PET0364,48
+PET0365,Helianthus petiolaris subsp. fallax,PET_07,PET0365,13
+PET0366,Helianthus petiolaris subsp. fallax,PET_07,PET0366,69
+PET0367,Helianthus petiolaris subsp. fallax,PET_07,PET0367,48
+PET0368,Helianthus petiolaris subsp. fallax,PET_07,PET0368,48
+PET0369,Helianthus petiolaris subsp. fallax,PET_07,PET0369,69
+PET0370,Helianthus petiolaris subsp. fallax,PET_07,PET0370,69
+PET0371,Helianthus petiolaris subsp. fallax,PET_08,PET0371,68
+PET0372,Helianthus petiolaris subsp. fallax,PET_08,PET0372,66
+PET0373,Helianthus petiolaris subsp. fallax,PET_08,PET0373,68
+PET0374,Helianthus petiolaris subsp. fallax,PET_08,PET0374,65
+PET0375,Helianthus petiolaris subsp. fallax,PET_08,PET0375,47
+PET0376,Helianthus petiolaris subsp. fallax,PET_08,PET0376,60
+PET0377,Helianthus petiolaris subsp. fallax,PET_08,PET0377,48
+PET0378,Helianthus petiolaris subsp. fallax,PET_08,PET0378,46
+PET0379,Helianthus petiolaris subsp. fallax,PET_08,PET0379,67
+PET0380,Helianthus petiolaris subsp. fallax,PET_08,PET0380,67
+PET0381,Helianthus petiolaris subsp. fallax,PET_09,PET0381,69
+PET0382,Helianthus petiolaris subsp. fallax,PET_09,PET0382,69
+PET0383,Helianthus petiolaris subsp. fallax,PET_09,PET0383,0
+PET0384,Helianthus petiolaris subsp. fallax,PET_09,PET0384,48
+PET0385,Helianthus petiolaris subsp. fallax,PET_09,PET0385,69
+PET0386,Helianthus petiolaris subsp. fallax,PET_09,PET0386,69
+PET0387,Helianthus petiolaris subsp. fallax,PET_09,PET0387,68
+PET0388,Helianthus petiolaris subsp. fallax,PET_09,PET0388,68
+PET0389,Helianthus petiolaris subsp. fallax,PET_09,,0
+PET0390,Helianthus petiolaris subsp. fallax,PET_09,,0
+PET0391,Helianthus petiolaris subsp. fallax,PET_10,PET0391N,63
+PET0392,Helianthus petiolaris subsp. fallax,PET_10,PET0392N,68
+PET0393,Helianthus petiolaris subsp. fallax,PET_10,PET0393,69
+PET0394,Helianthus petiolaris subsp. fallax,PET_10,PET0394,69
+PET0395,Helianthus petiolaris subsp. fallax,PET_10,PET0395,68
+PET0396,Helianthus petiolaris subsp. fallax,PET_10,PET0396,68
+PET0397,Helianthus petiolaris subsp. fallax,PET_10,PET0397,66
+PET0398,Helianthus petiolaris subsp. fallax,PET_10,PET0398,1
+PET0399,Helianthus petiolaris subsp. fallax,PET_10,PET0399,1
+PET0400,Helianthus petiolaris subsp. fallax,PET_10,PET0400,60
+PET0401,Helianthus petiolaris subsp. fallax,PET_11,PET0401,68
+PET0402,Helianthus petiolaris subsp. fallax,PET_11,PET0402,68
+PET0403,Helianthus petiolaris subsp. fallax,PET_11,PET0403,43
+PET0404,Helianthus petiolaris subsp. fallax,PET_11,PET0404,46
+PET0405,Helianthus petiolaris subsp. fallax,PET_11,PET0405,68
+PET0406,Helianthus petiolaris subsp. fallax,PET_11,PET0406,68
+PET0407,Helianthus petiolaris subsp. fallax,PET_11,PET0407,67
+PET0408,Helianthus petiolaris subsp. fallax,PET_11,,0
+PET0409,Helianthus petiolaris subsp. fallax,PET_11,PET0409,8
+PET0410,Helianthus petiolaris subsp. fallax,PET_11,PET0410,1
+PET0411,Helianthus petiolaris subsp. fallax,PET_12,,0
+PET0412,Helianthus petiolaris subsp. fallax,PET_12,PET0412,69
+PET0413,Helianthus petiolaris subsp. fallax,PET_12,PET0413,68
+PET0414,Helianthus petiolaris subsp. fallax,PET_12,PET0414,68
+PET0415,Helianthus petiolaris subsp. fallax,PET_12,PET0415,68
+PET0416,Helianthus petiolaris subsp. fallax,PET_12,PET0416,69
+PET0417,Helianthus petiolaris subsp. fallax,PET_12,PET0417,61
+PET0418,Helianthus petiolaris subsp. fallax,PET_12,PET0418,60
+PET0419,Helianthus petiolaris subsp. fallax,PET_12,PET0419,44
+PET0420,Helianthus petiolaris subsp. fallax,PET_12,PET0420,1
+PET0421,Helianthus petiolaris subsp. fallax,PET_13,PET0421,48
+PET0422,Helianthus petiolaris subsp. fallax,PET_13,PET0422,47
+PET0423,Helianthus petiolaris subsp. fallax,PET_13,PET0423,0
+PET0424,Helianthus petiolaris subsp. fallax,PET_13,PET0424,69
+PET0425,Helianthus petiolaris subsp. fallax,PET_13,PET0425,69
+PET0426,Helianthus petiolaris subsp. fallax,PET_13,,0
+PET0427,Helianthus petiolaris subsp. fallax,PET_13,PET0427,47
+PET0428,Helianthus petiolaris subsp. fallax,PET_13,PET0428,4
+PET0429,Helianthus petiolaris subsp. fallax,PET_13,PET0429,69
+PET0430,Helianthus petiolaris subsp. fallax,PET_13,PET0430,69
+PET0431,Helianthus petiolaris subsp. petiolaris,PET_14,PET0431,69
+PET0432,Helianthus petiolaris subsp. petiolaris,PET_14,PET0432,68
+PET0433,Helianthus petiolaris subsp. petiolaris,PET_14,PET0433,69
+PET0434,Helianthus petiolaris subsp. petiolaris,PET_14,PET0434,69
+PET0435,Helianthus petiolaris subsp. petiolaris,PET_14,PET0435,69
+PET0436,Helianthus petiolaris subsp. petiolaris,PET_14,PET0436,68
+PET0437,Helianthus petiolaris subsp. petiolaris,PET_14,PET0437,63
+PET0438,Helianthus petiolaris subsp. petiolaris,PET_14,PET0438,68
+PET0439,Helianthus petiolaris subsp. petiolaris,PET_14,PET0439,68
+PET0440,Helianthus petiolaris subsp. petiolaris,PET_14,PET0440,48
+PET0441,Helianthus petiolaris subsp. petiolaris,PET_15,PET0441,68
+PET0442,Helianthus petiolaris subsp. petiolaris,PET_15,PET0442,68
+PET0443,Helianthus petiolaris subsp. petiolaris,PET_15,PET0443,68
+PET0444,Helianthus petiolaris subsp. petiolaris,PET_15,PET0444,68
+PET0445,Helianthus petiolaris subsp. petiolaris,PET_15,PET0445,47
+PET0446,Helianthus petiolaris subsp. petiolaris,PET_15,PET0446,47
+PET0447,Helianthus petiolaris subsp. petiolaris,PET_15,PET0447,68
+PET0448,Helianthus petiolaris subsp. petiolaris,PET_15,PET0448,68
+PET0449,Helianthus petiolaris subsp. petiolaris,PET_15,PET0449,62
+PET0450,Helianthus petiolaris subsp. petiolaris,PET_15,PET0450,68
+PET0451,Helianthus petiolaris subsp. petiolaris,PET_16,PET0451,68
+PET0452,Helianthus petiolaris subsp. petiolaris,PET_16,PET0452,69
+PET0453,Helianthus petiolaris subsp. petiolaris,PET_16,PET0453N,67
+PET0454,Helianthus petiolaris subsp. petiolaris,PET_16,PET0454N,69
+PET0455,Helianthus petiolaris subsp. petiolaris,PET_16,PET0455,69
+PET0456,Helianthus petiolaris subsp. petiolaris,PET_16,PET0456,68
+PET0457,Helianthus petiolaris subsp. petiolaris,PET_16,PET0457,69
+PET0458,Helianthus petiolaris subsp. petiolaris,PET_16,PET0458,68
+PET0459,Helianthus petiolaris subsp. petiolaris,PET_16,PET0459N,68
+PET0460,Helianthus petiolaris subsp. petiolaris,PET_16,PET0460N,68
+PET0461,Helianthus petiolaris subsp. petiolaris,PET_17,PET0461,68
+PET0462,Helianthus petiolaris subsp. petiolaris,PET_17,PET0462,68
+PET0463,Helianthus petiolaris subsp. petiolaris,PET_17,PET0463,67
+PET0464,Helianthus petiolaris subsp. petiolaris,PET_17,PET0464,68
+PET0465,Helianthus petiolaris subsp. petiolaris,PET_17,PET0465,68
+PET0466,Helianthus petiolaris subsp. petiolaris,PET_17,PET0466,68
+PET0467,Helianthus petiolaris subsp. petiolaris,PET_17,PET0467,66
+PET0468,Helianthus petiolaris subsp. petiolaris,PET_17,PET0468,68
+PET0469,Helianthus petiolaris subsp. petiolaris,PET_17,PET0469,68
+PET0470,Helianthus petiolaris subsp. petiolaris,PET_17,PET0470,68
+PET0471,Helianthus petiolaris subsp. petiolaris,PET_18,PET0471,28
+PET0472,Helianthus petiolaris subsp. petiolaris,PET_18,PET0472,60
+PET0473,Helianthus petiolaris subsp. petiolaris,PET_18,PET0473N,68
+PET0474,Helianthus petiolaris subsp. petiolaris,PET_18,PET0474N,69
+PET0475,Helianthus petiolaris subsp. petiolaris,PET_18,PET0475,64
+PET0476,Helianthus petiolaris subsp. petiolaris,PET_18,PET0476,69
+PET0477,Helianthus petiolaris subsp. petiolaris,PET_18,PET0477,67
+PET0478,Helianthus petiolaris subsp. petiolaris,PET_18,PET0478,69
+PET0479,Helianthus petiolaris subsp. petiolaris,PET_18,PET0479,48
+PET0480,Helianthus petiolaris subsp. petiolaris,PET_18,PET0480,47
+PET0481,Helianthus petiolaris subsp. petiolaris,PET_19,PET0481,6
+PET0482,Helianthus petiolaris subsp. petiolaris,PET_19,PET0482,68
+PET0483,Helianthus petiolaris subsp. petiolaris,PET_19,PET0483,69
+PET0484,Helianthus petiolaris subsp. petiolaris,PET_19,PET0484,68
+PET0485,Helianthus petiolaris subsp. petiolaris,PET_19,PET0485,69
+PET0486,Helianthus petiolaris subsp. petiolaris,PET_19,PET0486,68
+PET0487,Helianthus petiolaris subsp. petiolaris,PET_19,PET0487,68
+PET0488,Helianthus petiolaris subsp. petiolaris,PET_19,PET0488,68
+PET0489,Helianthus petiolaris subsp. petiolaris,PET_19,PET0489,69
+PET0490,Helianthus petiolaris subsp. petiolaris,PET_19,PET0490,68
+PET0491,Helianthus petiolaris subsp. petiolaris,PET_20,PET0491,66
+PET0492,Helianthus petiolaris subsp. petiolaris,PET_20,PET0492,67
+PET0493,Helianthus petiolaris subsp. petiolaris,PET_20,PET0493,69
+PET0494,Helianthus petiolaris subsp. petiolaris,PET_20,PET0494,69
+PET0495,Helianthus petiolaris subsp. petiolaris,PET_20,PET0495,66
+PET0496,Helianthus petiolaris subsp. petiolaris,PET_20,PET0496,68
+PET0497,Helianthus petiolaris subsp. petiolaris,PET_20,PET0497,68
+PET0498,Helianthus petiolaris subsp. petiolaris,PET_20,PET0498,68
+PET0499,Helianthus petiolaris subsp. petiolaris,PET_20,PET0499,68
+PET0500,Helianthus petiolaris subsp. petiolaris,PET_20,PET0500,69
+PET0501,Helianthus petiolaris subsp. petiolaris,PET_21,PET0501,69
+PET0502,Helianthus petiolaris subsp. petiolaris,PET_21,PET0502,68
+PET0503,Helianthus petiolaris subsp. petiolaris,PET_21,PET0503,69
+PET0504,Helianthus petiolaris subsp. petiolaris,PET_21,PET0504,68
+PET0505,Helianthus petiolaris subsp. petiolaris,PET_21,PET0505,68
+PET0506,Helianthus petiolaris subsp. petiolaris,PET_21,PET0506,68
+PET0507,Helianthus petiolaris subsp. petiolaris,PET_21,PET0507,69
+PET0508,Helianthus petiolaris subsp. petiolaris,PET_21,PET0508,69
+PET0509,Helianthus petiolaris subsp. petiolaris,PET_21,PET0509,0
+PET0510,Helianthus petiolaris subsp. petiolaris,PET_21,PET0510,0
+PET0511,Helianthus petiolaris subsp. petiolaris,PET_22,PET0511,69
+PET0512,Helianthus petiolaris subsp. petiolaris,PET_22,PET0512,69
+PET0513,Helianthus petiolaris subsp. petiolaris,PET_22,PET0513,68
+PET0514,Helianthus petiolaris subsp. petiolaris,PET_22,PET0514,69
+PET0515,Helianthus petiolaris subsp. petiolaris,PET_22,PET0515,68
+PET0516,Helianthus petiolaris subsp. petiolaris,PET_22,PET0516,69
+PET0517,Helianthus petiolaris subsp. petiolaris,PET_22,PET0517,68
+PET0518,Helianthus petiolaris subsp. petiolaris,PET_22,PET0518,69
+PET0519,Helianthus petiolaris subsp. petiolaris,PET_22,PET0519,60
+PET0520,Helianthus petiolaris subsp. petiolaris,PET_22,PET0520,69
+PET0521,Helianthus petiolaris subsp. petiolaris,PET_23,PET0521,65
+PET0522,Helianthus petiolaris subsp. petiolaris,PET_23,PET0522,64
+PET0523,Helianthus petiolaris subsp. petiolaris,PET_23,PET0523,10
+PET0524,Helianthus petiolaris subsp. petiolaris,PET_23,PET0524,68
+PET0525,Helianthus petiolaris subsp. petiolaris,PET_23,,0
+PET0526,Helianthus petiolaris subsp. petiolaris,PET_23,PET0526,68
+PET0527,Helianthus petiolaris subsp. petiolaris,PET_23,PET0527,69
+PET0528,Helianthus petiolaris subsp. petiolaris,PET_23,PET0528,68
+PET0529,Helianthus petiolaris subsp. petiolaris,PET_23,PET0529,68
+PET0530,Helianthus petiolaris subsp. petiolaris,PET_23,PET0530,67
+PET0531,Helianthus petiolaris subsp. petiolaris,PET_24,PET0531,46
+PET0532,Helianthus petiolaris subsp. petiolaris,PET_24,PET0532,47
+PET0533,Helianthus petiolaris subsp. petiolaris,PET_24,,0
+PET0534,Helianthus petiolaris subsp. petiolaris,PET_24,PET0534N,68
+PET0535,Helianthus petiolaris subsp. petiolaris,PET_24,PET0535,68
+PET0536,Helianthus petiolaris subsp. petiolaris,PET_24,PET0536,68
+PET0537,Helianthus petiolaris subsp. petiolaris,PET_24,PET0537,69
+PET0538,Helianthus petiolaris subsp. petiolaris,PET_24,,0
+PET0798,Helianthus petiolaris subsp. petiolaris,PET_24,,0
+PET0799,Helianthus petiolaris subsp. petiolaris,PET_24,,0
+PET0539,Helianthus petiolaris subsp. petiolaris,PET_25,PET0539,68
+PET0540,Helianthus petiolaris subsp. petiolaris,PET_25,PET0540,68
+PET0541,Helianthus petiolaris subsp. petiolaris,PET_25,PET0541N,69
+PET0542,Helianthus petiolaris subsp. petiolaris,PET_25,PET0542N,69
+PET0543,Helianthus petiolaris subsp. petiolaris,PET_25,PET0543,68
+PET0544,Helianthus petiolaris subsp. petiolaris,PET_25,PET0544,68
+PET0545,Helianthus petiolaris subsp. petiolaris,PET_25,PET0545,69
+PET0546,Helianthus petiolaris subsp. petiolaris,PET_25,PET0546,47
+PET0547,Helianthus petiolaris subsp. petiolaris,PET_25,PET0547,68
+PET0548,Helianthus petiolaris subsp. petiolaris,PET_25,PET0548,68
+PET0549,Helianthus petiolaris subsp. petiolaris,PET_26,PET0549,61
+PET0550,Helianthus petiolaris subsp. petiolaris,PET_26,PET0550,0
+PET0551,Helianthus petiolaris subsp. petiolaris,PET_26,,0
+PET0552,Helianthus petiolaris subsp. petiolaris,PET_26,PET0552,0
+PET0553,Helianthus petiolaris subsp. petiolaris,PET_26,PET0553,69
+PET0554,Helianthus petiolaris subsp. petiolaris,PET_26,PET0554,67
+PET0555,Helianthus petiolaris subsp. petiolaris,PET_26,PET0555,69
+PET0556,Helianthus petiolaris subsp. petiolaris,PET_26,PET0556,69
+PET0557,Helianthus petiolaris subsp. petiolaris,PET_26,PET0557,68
+PET0558,Helianthus petiolaris subsp. petiolaris,PET_26,PET0558,65
+PET0559,Helianthus petiolaris subsp. petiolaris,PET_27,PET0559,68
+PET0560,Helianthus petiolaris subsp. petiolaris,PET_27,PET0560,69
+PET0561,Helianthus petiolaris subsp. petiolaris,PET_27,PET0561,68
+PET0562,Helianthus petiolaris subsp. petiolaris,PET_27,PET0562,69
+PET0563,Helianthus petiolaris subsp. petiolaris,PET_27,PET0563,69
+PET0564,Helianthus petiolaris subsp. petiolaris,PET_27,PET0564,68
+PET0565,Helianthus petiolaris subsp. petiolaris,PET_27,PET0565,69
+PET0566,Helianthus petiolaris subsp. petiolaris,PET_27,PET0566,69
+PET0567,Helianthus petiolaris subsp. petiolaris,PET_27,,0
+PET0568,Helianthus petiolaris subsp. petiolaris,PET_27,PET0568,61
+PET0569,Helianthus petiolaris subsp. petiolaris,PET_28,PET0569N,44
+PET0570,Helianthus petiolaris subsp. petiolaris,PET_28,PET0570,48
+PET0571,Helianthus petiolaris subsp. petiolaris,PET_28,PET0571,68
+PET0572,Helianthus petiolaris subsp. petiolaris,PET_28,PET0572,69
+PET0573,Helianthus petiolaris subsp. petiolaris,PET_28,PET0573,68
+PET0574,Helianthus petiolaris subsp. petiolaris,PET_28,PET0574,68
+PET0575,Helianthus petiolaris subsp. petiolaris,PET_28,PET0575,69
+PET0576,Helianthus petiolaris subsp. petiolaris,PET_28,PET0576,69
+PET0577,Helianthus petiolaris subsp. petiolaris,PET_28,,0
+PET0578,Helianthus petiolaris subsp. petiolaris,PET_28,PET0578,68
+PET0579,Helianthus petiolaris subsp. petiolaris,PET_29,PET0579,61
+PET0580,Helianthus petiolaris subsp. petiolaris,PET_29,PET0580,60
+PET0581,Helianthus petiolaris subsp. petiolaris,PET_29,PET0581,68
+PET0582,Helianthus petiolaris subsp. petiolaris,PET_29,PET0582,69
+PET0583,Helianthus petiolaris subsp. petiolaris,PET_29,PET0583,68
+PET0584,Helianthus petiolaris subsp. petiolaris,PET_29,PET0584,68
+PET0585,Helianthus petiolaris subsp. petiolaris,PET_29,,0
+PET0586,Helianthus petiolaris subsp. petiolaris,PET_29,PET0586,68
+PET0587,Helianthus petiolaris subsp. petiolaris,PET_29,PET0587,47
+PET0588,Helianthus petiolaris subsp. petiolaris,PET_29,PET0588,69
+PET0589,Helianthus petiolaris subsp. petiolaris,PET_30,PET0589,67
+PET0590,Helianthus petiolaris subsp. petiolaris,PET_30,PET0590,68
+PET0591,Helianthus petiolaris subsp. petiolaris,PET_30,PET0591,68
+PET0592,Helianthus petiolaris subsp. petiolaris,PET_30,PET0592,69
+PET0593,Helianthus petiolaris subsp. petiolaris,PET_30,PET0593,47
+PET0594,Helianthus petiolaris subsp. petiolaris,PET_30,,0
+PET0595,Helianthus petiolaris subsp. petiolaris,PET_30,PET0595,68
+PET0596,Helianthus petiolaris subsp. petiolaris,PET_30,PET0596,68
+PET0597,Helianthus petiolaris subsp. petiolaris,PET_30,PET0597,48
+PET0598,Helianthus petiolaris subsp. petiolaris,PET_30,PET0598,48
+PET0599,Helianthus petiolaris subsp. petiolaris,PET_31,PET0599,67
+PET0600,Helianthus petiolaris subsp. petiolaris,PET_31,PET0600,69
+PET0601,Helianthus petiolaris subsp. petiolaris,PET_31,,0
+PET0602,Helianthus petiolaris subsp. petiolaris,PET_31,PET0602,48
+PET0603,Helianthus petiolaris subsp. petiolaris,PET_31,PET0603,68
+PET0604,Helianthus petiolaris subsp. petiolaris,PET_31,PET0604,68
+PET0605,Helianthus petiolaris subsp. petiolaris,PET_31,PET0605,68
+PET0606,Helianthus petiolaris subsp. petiolaris,PET_31,PET0606,68
+PET0607,Helianthus petiolaris subsp. petiolaris,PET_31,PET0607,69
+PET0608,Helianthus petiolaris subsp. petiolaris,PET_31,,0
+PET0609,Helianthus petiolaris subsp. fallax,PET_32,PET0609,69
+PET0610,Helianthus petiolaris subsp. fallax,PET_32,PET0610,69
+PET0611,Helianthus petiolaris subsp. fallax,PET_32,PET0611,69
+PET0612,Helianthus petiolaris subsp. fallax,PET_32,PET0612,48
+PET0613,Helianthus petiolaris subsp. fallax,PET_32,PET0613,43
+PET0614,Helianthus petiolaris subsp. fallax,PET_32,PET0614,59
+PET0615,Helianthus petiolaris subsp. fallax,PET_32,PET0615,44
+PET0616,Helianthus petiolaris subsp. fallax,PET_32,PET0616,48
+PET0617,Helianthus petiolaris subsp. fallax,PET_32,PET0617,69
+PET0800,Helianthus petiolaris subsp. fallax,PET_32,PET0800,68
+PET0618,Helianthus petiolaris subsp. fallax,PET_33,PET0618,69
+PET0619,Helianthus petiolaris subsp. fallax,PET_33,PET0619,61
+PET0620,Helianthus petiolaris subsp. fallax,PET_33,PET0620,47
+PET0621,Helianthus petiolaris subsp. fallax,PET_33,PET0621,69
+PET0622,Helianthus petiolaris subsp. fallax,PET_33,PET0622,69
+PET0623,Helianthus petiolaris subsp. fallax,PET_33,PET0623,48
+PET0624,Helianthus petiolaris subsp. fallax,PET_33,PET0624,43
+PET0625,Helianthus petiolaris subsp. fallax,PET_33,PET0625,69
+PET0626,Helianthus petiolaris subsp. fallax,PET_33,PET0626,69
+PET0627,Helianthus petiolaris subsp. fallax,PET_33,PET0627,69
+PET0628,Helianthus petiolaris subsp. fallax,PET_34,PET0628,69
+PET0629,Helianthus petiolaris subsp. fallax,PET_34,PET0629,68
+PET0630,Helianthus petiolaris subsp. fallax,PET_34,PET0630,69
+PET0631,Helianthus petiolaris subsp. fallax,PET_34,PET0631,47
+PET0632,Helianthus petiolaris subsp. fallax,PET_34,PET0632,47
+PET0633,Helianthus petiolaris subsp. fallax,PET_34,PET0633,61
+PET0634,Helianthus petiolaris subsp. fallax,PET_34,PET0634,47
+PET0635,Helianthus petiolaris subsp. fallax,PET_34,PET0635,68
+PET0636,Helianthus petiolaris subsp. fallax,PET_34,PET0636,69
+PET0637,Helianthus petiolaris subsp. fallax,PET_34,PET0637,69
+PET0638,Helianthus petiolaris subsp. fallax,PET_35,PET0638,0
+PET0639,Helianthus petiolaris subsp. fallax,PET_35,PET0639,69
+PET0640,Helianthus petiolaris subsp. fallax,PET_35,PET0640,69
+PET0641,Helianthus petiolaris subsp. fallax,PET_35,PET0641,68
+PET0642,Helianthus petiolaris subsp. fallax,PET_35,PET0642,68
+PET0643,Helianthus petiolaris subsp. fallax,PET_35,PET0643,59
+PET0644,Helianthus petiolaris subsp. fallax,PET_35,PET0644,47
+PET0645,Helianthus petiolaris subsp. fallax,PET_35,PET0645,68
+PET0646,Helianthus petiolaris subsp. fallax,PET_35,PET0646,68
+PET0647,Helianthus petiolaris subsp. fallax,PET_35,PET0647,64
+PET0648,Helianthus niveus subsp. canescens,PET_36,PET0648,68
+PET0649,Helianthus niveus subsp. canescens,PET_36,PET0649,0
+PET0650,Helianthus niveus subsp. canescens,PET_36,PET0650,3
+PET0651,Helianthus niveus subsp. canescens,PET_36,PET0651,68
+PET0652,Helianthus niveus subsp. canescens,PET_36,PET0652,48
+PET0653,Helianthus niveus subsp. canescens,PET_36,PET0653,31
+PET0654,Helianthus niveus subsp. canescens,PET_36,PET0654,69
+PET0655,Helianthus niveus subsp. canescens,PET_36,PET0655,47
+PET0656,Helianthus niveus subsp. canescens,PET_36,PET0656,47
+PET0657,Helianthus niveus subsp. canescens,PET_36,PET0657,68
+PET0658,Helianthus niveus subsp. canescens,PET_37,PET0658,68
+PET0659,Helianthus niveus subsp. canescens,PET_37,PET0659,0
+PET0660,Helianthus niveus subsp. canescens,PET_37,PET0660,0
+PET0661,Helianthus niveus subsp. canescens,PET_37,,0
+PET0662,Helianthus niveus subsp. canescens,PET_37,PET0662,0
+PET0663,Helianthus niveus subsp. canescens,PET_37,PET0663,6
+PET0664,Helianthus niveus subsp. canescens,PET_37,PET0664N,7
+PET0665,Helianthus niveus subsp. canescens,PET_37,PET0665,0
+PET0666,Helianthus niveus subsp. canescens,PET_37,PET0666,0
+PET0667,Helianthus niveus subsp. canescens,PET_37,PET0667,6
+PET0668,Helianthus niveus subsp. canescens,PET_38,PET0668,67
+PET0669,Helianthus niveus subsp. canescens,PET_38,PET0669,0
+PET0670,Helianthus niveus subsp. canescens,PET_38,PET0670,0
+PET0671,Helianthus niveus subsp. canescens,PET_38,,0
+PET0672,Helianthus niveus subsp. canescens,PET_38,PET0672,46
+PET0673,Helianthus niveus subsp. canescens,PET_38,PET0673,6
+PET0674,Helianthus niveus subsp. canescens,PET_38,PET0674,47
+PET0675,Helianthus niveus subsp. canescens,PET_38,PET0675,48
+PET0676,Helianthus niveus subsp. canescens,PET_38,PET0676,0
+PET0677,Helianthus niveus subsp. canescens,PET_38,PET0677,4
+PET0678,Helianthus niveus subsp. canescens,PET_39,PET0678,0
+PET0679,Helianthus niveus subsp. canescens,PET_39,PET0679,0
+PET0680,Helianthus niveus subsp. canescens,PET_39,PET0680,33
+PET0681,Helianthus niveus subsp. canescens,PET_39,PET0681,0
+PET0682,Helianthus niveus subsp. canescens,PET_39,PET0682,0
+PET0683,Helianthus niveus subsp. canescens,PET_39,PET0683,0
+PET0684,Helianthus niveus subsp. canescens,PET_39,PET0684,0
+PET0685,Helianthus niveus subsp. canescens,PET_39,PET0685,0
+PET0686,Helianthus niveus subsp. canescens,PET_39,,0
+PET0687,Helianthus niveus subsp. canescens,PET_39,PET0687,0
+PET0688,Helianthus niveus subsp. canescens,PET_40,PET0688,0
+PET0689,Helianthus niveus subsp. canescens,PET_40,PET0689N,1
+PET0690,Helianthus niveus subsp. canescens,PET_40,PET0690N,1
+PET0691,Helianthus niveus subsp. canescens,PET_40,PET0691,6
+PET0692,Helianthus niveus subsp. canescens,PET_40,PET0692,64
+PET0693,Helianthus niveus subsp. canescens,PET_40,PET0693,47
+PET0694,Helianthus niveus subsp. canescens,PET_40,PET0694,35
+PET0695,Helianthus niveus subsp. canescens,PET_40,PET0695,43
+PET0696,Helianthus niveus subsp. canescens,PET_40,PET0696,64
+PET0697,Helianthus niveus subsp. canescens,PET_40,PET0697,62
+PET0698,Helianthus niveus subsp. canescens,PET_41,PET0698,47
+PET0699,Helianthus niveus subsp. canescens,PET_41,PET0699,69
+PET0700,Helianthus niveus subsp. canescens,PET_41,PET0700,69
+PET0701,Helianthus niveus subsp. canescens,PET_41,PET0701,48
+PET0702,Helianthus niveus subsp. canescens,PET_41,PET0702,0
+PET0703,Helianthus niveus subsp. canescens,PET_41,PET0703,68
+PET0704,Helianthus niveus subsp. canescens,PET_41,PET0704,69
+PET0705,Helianthus niveus subsp. canescens,PET_41,PET0705,68
+PET0706,Helianthus niveus subsp. canescens,PET_41,PET0706,69
+PET0707,Helianthus niveus subsp. canescens,PET_41,PET0707,69
+PET0708,Helianthus niveus subsp. canescens,PET_42,PET0708,68
+PET0709,Helianthus niveus subsp. canescens,PET_42,PET0709,69
+PET0710,Helianthus niveus subsp. canescens,PET_42,PET0710,69
+PET0711,Helianthus niveus subsp. canescens,PET_42,PET0711,67
+PET0712,Helianthus niveus subsp. canescens,PET_42,PET0712,62
+PET0713,Helianthus niveus subsp. canescens,PET_42,PET0713,68
+PET0714,Helianthus niveus subsp. canescens,PET_42,PET0714,0
+PET0715,Helianthus niveus subsp. canescens,PET_42,PET0715,0
+PET0716,Helianthus niveus subsp. canescens,PET_42,PET0716,0
+PET0717,Helianthus niveus subsp. canescens,PET_42,PET0717,67
+PET0718,Helianthus petiolaris subsp. fallax,PET_43,PET0718,68
+PET0719,Helianthus petiolaris subsp. fallax,PET_43,PET0719,47
+PET0720,Helianthus petiolaris subsp. fallax,PET_43,PET0720,43
+PET0721,Helianthus petiolaris subsp. fallax,PET_43,PET0721,68
+PET0722,Helianthus petiolaris subsp. fallax,PET_43,PET0722,68
+PET0723,Helianthus petiolaris subsp. fallax,PET_43,PET0723,69
+PET0724,Helianthus petiolaris subsp. fallax,PET_43,PET0724,67
+PET0725,Helianthus petiolaris subsp. fallax,PET_43,PET0725,69
+PET0726,Helianthus petiolaris subsp. fallax,PET_43,PET0726,68
+PET0727,Helianthus petiolaris subsp. fallax,PET_43,PET0727,69
+PET0728,Helianthus niveus subsp. canescens,PET_44,PET0728,65
+PET0729,Helianthus niveus subsp. canescens,PET_44,,0
+PET0730,Helianthus niveus subsp. canescens,PET_44,PET0730,69
+PET0731,Helianthus niveus subsp. canescens,PET_44,PET0731,0
+PET0732,Helianthus niveus subsp. canescens,PET_44,PET0732,0
+PET0733,Helianthus niveus subsp. canescens,PET_44,PET0733,6
+PET0734,Helianthus niveus subsp. canescens,PET_44,PET0734,64
+PET0735,Helianthus niveus subsp. canescens,PET_44,PET0735,0
+PET0736,Helianthus niveus subsp. canescens,PET_44,PET0736N,0
+PET0737,Helianthus niveus subsp. canescens,PET_44,PET0737,69
+PET0738,Helianthus niveus subsp. canescens,PET_45,PET0738,69
+PET0739,Helianthus niveus subsp. canescens,PET_45,PET0739,48
+PET0740,Helianthus niveus subsp. canescens,PET_45,PET0740,46
+PET0741,Helianthus niveus subsp. canescens,PET_45,PET0741,7
+PET0742,Helianthus niveus subsp. canescens,PET_45,PET0742,47
+PET0743,Helianthus niveus subsp. canescens,PET_45,PET0743,6
+PET0744,Helianthus niveus subsp. canescens,PET_45,PET0744,44
+PET0745,Helianthus niveus subsp. canescens,PET_45,PET0745,6
+PET0746,Helianthus niveus subsp. canescens,PET_45,PET0746,61
+PET0747,Helianthus niveus subsp. canescens,PET_45,PET0747,48
+PET0748,Helianthus petiolaris subsp. fallax,PET_46,PET0748,60
+PET0749,Helianthus petiolaris subsp. fallax,PET_46,PET0749N,69
+PET0750,Helianthus petiolaris subsp. fallax,PET_46,PET0750,68
+PET0751,Helianthus petiolaris subsp. fallax,PET_46,PET0751,61
+PET0752,Helianthus petiolaris subsp. fallax,PET_46,PET0752,65
+PET0753,Helianthus petiolaris subsp. fallax,PET_46,PET0753,69
+PET0754,Helianthus petiolaris subsp. fallax,PET_46,PET0754,69
+PET0755,Helianthus petiolaris subsp. fallax,PET_46,PET0755N,69
+PET0756,Helianthus petiolaris subsp. fallax,PET_46,PET0756N,68
+PET0757,Helianthus petiolaris subsp. fallax,PET_46,PET0757,69
+PET0758,Helianthus petiolaris subsp. fallax,PET_47,PET0758,60
+PET0759,Helianthus petiolaris subsp. fallax,PET_47,PET0759,69
+PET0760,Helianthus petiolaris subsp. fallax,PET_47,PET0760,56
+PET0761,Helianthus petiolaris subsp. fallax,PET_47,PET0761,48
+PET0762,Helianthus petiolaris subsp. fallax,PET_47,PET0762,36
+PET0763,Helianthus petiolaris subsp. fallax,PET_47,PET0763,48
+PET0764,Helianthus petiolaris subsp. fallax,PET_47,PET0764,39
+PET0765,Helianthus petiolaris subsp. fallax,PET_47,PET0765,69
+PET0766,Helianthus petiolaris subsp. fallax,PET_47,PET0766,69
+PET0767,Helianthus petiolaris subsp. fallax,PET_47,PET0767,47
+PET0768,Helianthus petiolaris subsp. fallax,PET_48,PET0768,0
+PET0769,Helianthus petiolaris subsp. fallax,PET_48,PET0769,69
+PET0770,Helianthus petiolaris subsp. fallax,PET_48,PET0770,69
+PET0771,Helianthus petiolaris subsp. fallax,PET_48,,0
+PET0772,Helianthus petiolaris subsp. fallax,PET_48,,0
+PET0773,Helianthus petiolaris subsp. fallax,PET_48,,0
+PET0774,Helianthus petiolaris subsp. fallax,PET_48,PET0774N,44
+PET0775,Helianthus petiolaris subsp. fallax,PET_48,PET0775,69
+PET0776,Helianthus petiolaris subsp. fallax,PET_48,PET0776,69
+PET0777,Helianthus petiolaris subsp. fallax,PET_48,PET0777,44
+PET0778,Helianthus petiolaris subsp. fallax,PET_49,PET0778,69
+PET0779,Helianthus petiolaris subsp. fallax,PET_49,PET0779N,44
+PET0780,Helianthus petiolaris subsp. fallax,PET_49,PET0780N,40
+PET0781,Helianthus petiolaris subsp. fallax,PET_49,PET0781,68
+PET0782,Helianthus petiolaris subsp. fallax,PET_49,,0
+PET0783,Helianthus petiolaris subsp. fallax,PET_49,PET0783,43
+PET0784,Helianthus petiolaris subsp. fallax,PET_49,PET0784,47
+PET0785,Helianthus petiolaris subsp. fallax,PET_49,PET0785,68
+PET0786,Helianthus petiolaris subsp. fallax,PET_49,PET0786,39
+PET0787,Helianthus petiolaris subsp. fallax,PET_49,PET0787,68
+PET0788,Helianthus petiolaris subsp. fallax,PET_50,PET0788,68
+PET0789,Helianthus petiolaris subsp. fallax,PET_50,PET0789,1
+PET0790,Helianthus petiolaris subsp. fallax,PET_50,PET0790,42
+PET0791,Helianthus petiolaris subsp. fallax,PET_50,PET0791,68
+PET0792,Helianthus petiolaris subsp. fallax,PET_50,PET0792,67
+PET0793,Helianthus petiolaris subsp. fallax,PET_50,PET0793,66
+PET0794,Helianthus petiolaris subsp. fallax,PET_50,PET0794,65
+PET0795,Helianthus petiolaris subsp. fallax,PET_50,PET0795,67
+PET0796,Helianthus petiolaris subsp. fallax,PET_50,PET0796,64
+PET0797,Helianthus petiolaris subsp. fallax,PET_50,PET0797,67
