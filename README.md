@@ -14,8 +14,7 @@ The research discusses functional traits in a dataset, emphasizing the missing v
 - **Applying-XAI-approaches-to-ecology.Rproj**: 📈 R project file for the research.
 
 ## 🛠 Tools and Languages Used
-- **HTML**: 99.8%
-- **R**: 0.2%
+- **R and ArcGIS**
 
 ## 🤝 Contributing
 Feel free to fork this repository, make changes, and create a pull request if you think you've made improvements worth sharing.
